@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+   <openedEditor>WorkflowImpl:Workflow</openedEditor>
+   <openedEditor>DecisionTableImpl:Workflow/Destinataires/Destinataires</openedEditor>
+   <openedEditor>DecisionTableImpl:Workflow/Corps mail/Corps mail</openedEditor>
+   <openedEditor>DecisionTableImpl:Workflow/Sujet/Sujet</openedEditor>
+   <openedEditor>PublisherConfigurationImpl:PublicationXStudio</openedEditor>
+   <activeEditor>WorkflowImpl:Workflow</activeEditor>
+   <editorConfigurations>
+      <table resource="DecisionTableImpl:Workflow/Envoi/Envoi">
+         <columnWidths>
+            <width>100</width>
+            <width>250</width>
+            <width>150</width>
+            <width>150</width>
+         </columnWidths>
+         <hiddenKinds/>
+      </table>
+      <scenario assistant_orientation="256"
+                resource="WorkflowScenarioImpl:Dest OK-Ne pas envoyer-Echec envoi-0 dest-Corps vide-Brouillon">
+         <assistant_sash_weights>
+            <weight>50</weight>
+            <weight>50</weight>
+         </assistant_sash_weights>
+         <right_panel_layer>WORKFLOW_LAYER</right_panel_layer>
+      </scenario>
+      <scenario assistant_orientation="256"
+                resource="WorkflowScenarioImpl:Que Cc-Echec envoi-Que Cci-Brouillon">
+         <assistant_sash_weights>
+            <weight>50</weight>
+            <weight>50</weight>
+         </assistant_sash_weights>
+         <right_panel_layer>WORKFLOW_LAYER</right_panel_layer>
+      </scenario>
+      <testCampaign resource="TestCampaignImpl:Envoi de mail">
+         <dataSetCombinationSorting scenarioToSortPolicy="OnlyCurrentScenario"/>
+      </testCampaign>
+      <table resource="DecisionTableImpl:Workflow/Vérification/Vérification">
+         <columnWidths>
+            <width>176</width>
+            <width>145</width>
+            <width>100</width>
+            <width>265</width>
+            <width>150</width>
+            <width>150</width>
+         </columnWidths>
+         <hiddenKinds/>
+      </table>
+      <workflow resource="WorkflowImpl:Workflow"
+                viewLocationX="0"
+                viewLocationY="0"
+                zoom="1.0"/>
+      <table resource="DecisionTableImpl:Workflow/Destinataires/Destinataires">
+         <columnWidths>
+            <width>109</width>
+            <width>100</width>
+            <width>100</width>
+            <width>100</width>
+            <width>417</width>
+            <width>150</width>
+            <width>150</width>
+         </columnWidths>
+         <hiddenKinds/>
+      </table>
+      <table resource="DecisionTableImpl:Workflow/Corps mail/Corps mail">
+         <columnWidths>
+            <width>100</width>
+            <width>265</width>
+            <width>150</width>
+            <width>150</width>
+         </columnWidths>
+         <hiddenKinds/>
+      </table>
+      <table resource="DecisionTableImpl:Workflow/Sujet/Sujet">
+         <columnWidths>
+            <width>155</width>
+            <width>265</width>
+            <width>150</width>
+            <width>150</width>
+         </columnWidths>
+         <hiddenKinds/>
+      </table>
+   </editorConfigurations>
+</project>

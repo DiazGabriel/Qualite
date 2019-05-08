@@ -1,0 +1,2182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:bpm.process="http://www.smartesting.com/bpm/process" xmlns:bpm.process.diagram="http://www.smartesting.com/bpm/process/diagram" xmlns:bpm.process.table="http://www.smartesting.com/bpm/process/table" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" xmlns:project="http://www.smartesting.com/project" name="TP-mail">
+  <metadata key="ProjectVersion" value="8"/>
+  <metadata key="ApplicationVersion" value="2.2.1"/>
+  <testElements xsi:type="bpm.process:Workflow" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP" name="Workflow">
+    <flowElements xsi:type="bpm.process:StartPoint" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--1704595256--1420635718" name="Ouvrir composeur" outgoings="MK8OmycnnB4C7LtvCcpH7CgMLoX3emOS"/>
+    <flowElements xsi:type="bpm.process:Task" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903" name="Sujet" incomings="lJSYHK990DDaDKe8YpINYgH0NtLwROlk 33Cla3fIegmlLsy2xg6hrgV86oE1pHPf GrTBnMAyjK3ChiW6d0bdsypLXMiYUH0t" outgoings="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-0 Ja1KKAMk6KTPMLal3Q3puVlHhqTbs26n">
+      <table>
+        <columns xsi:type="bpm.process.table:DataColumn" id="fBZF6sEXBtsydT7WfZcOqoIc4LkUTmwy" type="SET" dataName="Sujet_mail"/>
+        <columns xsi:type="bpm.process.table:OperationColumn" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903--765975101"/>
+        <columns xsi:type="bpm.process.table:OutcomeColumn" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903-301812974"/>
+        <columns xsi:type="bpm.process.table:CriterionColumn" id="SKLCs6FmEWmgIcytyHlUjGTGmbmM4qEU" criterionType="#objective"/>
+        <decisions id="sjVGKw9kSH16S2xAHF5YXN6KwulECzHV">
+          <cells key="fBZF6sEXBtsydT7WfZcOqoIc4LkUTmwy">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Destinataires"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo"/>
+            </value>
+          </cells>
+          <cells key="SKLCs6FmEWmgIcytyHlUjGTGmbmM4qEU">
+            <value xsi:type="bpm.process.table:StringCell" value=""/>
+          </cells>
+        </decisions>
+        <decisions id="AWSymMJrdzLpJBqO19OlrLPR1MUSliBY">
+          <cells key="fBZF6sEXBtsydT7WfZcOqoIc4LkUTmwy">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Destinataires"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
+            </value>
+          </cells>
+          <cells key="SKLCs6FmEWmgIcytyHlUjGTGmbmM4qEU">
+            <value xsi:type="bpm.process.table:StringCell" value="Sans sujet"/>
+          </cells>
+        </decisions>
+        <decisions id="td1BK7SPmVVaBObJHpyhzyBwhZMuvyq8">
+          <cells key="fBZF6sEXBtsydT7WfZcOqoIc4LkUTmwy">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Enregistré en brouillon"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo"/>
+              <operations reference="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+            </value>
+          </cells>
+          <cells key="SKLCs6FmEWmgIcytyHlUjGTGmbmM4qEU">
+            <value xsi:type="bpm.process.table:StringCell" value="Brouillon"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="bpm.process:Task" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542" name="Destinataires" incomings="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-0 NJrT0GyJo6SZfTtzT7aDzzl9vJN6G8sW" outgoings="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-1 10s62ObSe0Zg8vyU0FD5R7626LOvFMOE">
+      <table>
+        <columns xsi:type="bpm.process.table:DataColumn" id="wxpMsAAgR8jftGjJgnC2Bh4oV52dxN5C" type="SET" dataName="Adresse_mail_A"/>
+        <columns xsi:type="bpm.process.table:DataColumn" id="w3bxmEej2Ej6KBR3dqrOm06gL9arxGwW" type="SET" dataName="Adresse_mail_CC"/>
+        <columns xsi:type="bpm.process.table:DataColumn" id="gvCo0U4d7WINcQQOe6hE2qlv2rnn4XjI" type="SET" dataName="Adresse_mail_CCi"/>
+        <columns xsi:type="bpm.process.table:DataColumn" id="SYLD6v6pTpdzdmrtRXpcPSL5S58jnitS" type="SET" dataName="Destinataire_Mail"/>
+        <columns xsi:type="bpm.process.table:OperationColumn" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542--765975101"/>
+        <columns xsi:type="bpm.process.table:OutcomeColumn" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542-301812974"/>
+        <columns xsi:type="bpm.process.table:CriterionColumn" id="YsaKj3ysivohi5Az888gZcOfh5qVe8fX" criterionType="#objective"/>
+        <decisions id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542--1552275236-73500831">
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU"/>
+            </value>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Corps mail"/>
+          </cells>
+          <cells key="wxpMsAAgR8jftGjJgnC2Bh4oV52dxN5C">
+            <value xsi:type="bpm.process.table:StringCell" value="marc@hagechahine@altran.com"/>
+          </cells>
+          <cells key="YsaKj3ysivohi5Az888gZcOfh5qVe8fX">
+            <value xsi:type="bpm.process.table:StringCell" value="Dest OK"/>
+          </cells>
+          <cells key="w3bxmEej2Ej6KBR3dqrOm06gL9arxGwW">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="gvCo0U4d7WINcQQOe6hE2qlv2rnn4XjI">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="SYLD6v6pTpdzdmrtRXpcPSL5S58jnitS">
+            <value xsi:type="bpm.process.table:StringCell" value="invalide"/>
+          </cells>
+        </decisions>
+        <decisions id="xGlb4neDm6ivnNPwblMCZ9YkwRVuc2mU">
+          <cells key="wxpMsAAgR8jftGjJgnC2Bh4oV52dxN5C">
+            <value xsi:type="bpm.process.table:StringCell" value="marc.hagechahine@altran.com"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Corps mail"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU"/>
+            </value>
+          </cells>
+          <cells key="YsaKj3ysivohi5Az888gZcOfh5qVe8fX">
+            <value xsi:type="bpm.process.table:StringCell" value="Dest OK"/>
+          </cells>
+          <cells key="w3bxmEej2Ej6KBR3dqrOm06gL9arxGwW">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="gvCo0U4d7WINcQQOe6hE2qlv2rnn4XjI">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="SYLD6v6pTpdzdmrtRXpcPSL5S58jnitS">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+        </decisions>
+        <decisions id="BBxopbG8iVDRrEn2UdYxQZ8rMGwaWIlF">
+          <cells key="wxpMsAAgR8jftGjJgnC2Bh4oV52dxN5C">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Corps mail"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+            </value>
+          </cells>
+          <cells key="YsaKj3ysivohi5Az888gZcOfh5qVe8fX">
+            <value xsi:type="bpm.process.table:StringCell" value="0 dest"/>
+          </cells>
+          <cells key="w3bxmEej2Ej6KBR3dqrOm06gL9arxGwW">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="gvCo0U4d7WINcQQOe6hE2qlv2rnn4XjI">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="SYLD6v6pTpdzdmrtRXpcPSL5S58jnitS">
+            <value xsi:type="bpm.process.table:StringCell" value="Aucun"/>
+          </cells>
+        </decisions>
+        <decisions id="wxSyM4IiMhlR1tDWrSTUNmtYEJYWJLzh">
+          <cells key="wxpMsAAgR8jftGjJgnC2Bh4oV52dxN5C">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Corps mail"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj"/>
+            </value>
+          </cells>
+          <cells key="YsaKj3ysivohi5Az888gZcOfh5qVe8fX">
+            <value xsi:type="bpm.process.table:StringCell" value="Que Cc"/>
+          </cells>
+          <cells key="w3bxmEej2Ej6KBR3dqrOm06gL9arxGwW">
+            <value xsi:type="bpm.process.table:StringCell" value="latavernedutesteur@outlook.fr"/>
+          </cells>
+          <cells key="gvCo0U4d7WINcQQOe6hE2qlv2rnn4XjI">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="SYLD6v6pTpdzdmrtRXpcPSL5S58jnitS">
+            <value xsi:type="bpm.process.table:StringCell" value="CC"/>
+          </cells>
+        </decisions>
+        <decisions id="oMJS1OZCKNEEzbWq79IklxxAwCHlFWUw">
+          <cells key="wxpMsAAgR8jftGjJgnC2Bh4oV52dxN5C">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Corps mail"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5"/>
+            </value>
+          </cells>
+          <cells key="YsaKj3ysivohi5Az888gZcOfh5qVe8fX">
+            <value xsi:type="bpm.process.table:StringCell" value="Que Cci"/>
+          </cells>
+          <cells key="w3bxmEej2Ej6KBR3dqrOm06gL9arxGwW">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="gvCo0U4d7WINcQQOe6hE2qlv2rnn4XjI">
+            <value xsi:type="bpm.process.table:StringCell" value="marc.hagechahine@linkedin.fr"/>
+          </cells>
+          <cells key="SYLD6v6pTpdzdmrtRXpcPSL5S58jnitS">
+            <value xsi:type="bpm.process.table:StringCell" value="Cci"/>
+          </cells>
+        </decisions>
+        <decisions id="7W494Zlxz19vXfU8GEBzhMYJbkYXbeyb">
+          <cells key="wxpMsAAgR8jftGjJgnC2Bh4oV52dxN5C">
+            <value xsi:type="bpm.process.table:StringCell" value="marc@hagechahine@altran.com"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Enregistré en brouillon"/>
+          </cells>
+          <cells key="YsaKj3ysivohi5Az888gZcOfh5qVe8fX">
+            <value xsi:type="bpm.process.table:StringCell" value="Brouillon"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU"/>
+              <operations reference="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj"/>
+              <operations reference="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5"/>
+            </value>
+          </cells>
+          <cells key="w3bxmEej2Ej6KBR3dqrOm06gL9arxGwW">
+            <value xsi:type="bpm.process.table:StringCell" value="latavernedutesteur@outlook.fr"/>
+          </cells>
+          <cells key="gvCo0U4d7WINcQQOe6hE2qlv2rnn4XjI">
+            <value xsi:type="bpm.process.table:StringCell" value="marc.hagechahine@linkedin.fr"/>
+          </cells>
+          <cells key="SYLD6v6pTpdzdmrtRXpcPSL5S58jnitS">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+        </decisions>
+        <decisions id="tP4TKxqeMcTpPgy9JRefwGJINFyMNN5r">
+          <cells key="wxpMsAAgR8jftGjJgnC2Bh4oV52dxN5C">
+            <value xsi:type="bpm.process.table:StringCell" value="marc@hagechahine@altran.com"/>
+          </cells>
+          <cells key="w3bxmEej2Ej6KBR3dqrOm06gL9arxGwW">
+            <value xsi:type="bpm.process.table:StringCell" value="latavernedutesteur@outlook.fr"/>
+          </cells>
+          <cells key="gvCo0U4d7WINcQQOe6hE2qlv2rnn4XjI">
+            <value xsi:type="bpm.process.table:StringCell" value="marc.hagechahine@linkedin.fr"/>
+          </cells>
+          <cells key="SYLD6v6pTpdzdmrtRXpcPSL5S58jnitS">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Corps mail"/>
+          </cells>
+          <cells key="YsaKj3ysivohi5Az888gZcOfh5qVe8fX">
+            <value xsi:type="bpm.process.table:StringCell" value="Dest OK"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU"/>
+              <operations reference="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj"/>
+              <operations reference="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="bpm.process:Task" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150" name="Corps mail" incomings="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-1 ZTHrAKfMRTYMUtVLUiOpJl5yNq55Eotf" outgoings="l5413lRXng6boW65WdqsTBsv4moHHjEt qHRW9qZ4ajN95fJ2cgVkbzizXOVZqgtD">
+      <table>
+        <columns xsi:type="bpm.process.table:DataColumn" id="pU3lg0gERcGXxukCIb3NM3ACydmAo39a" type="SET" dataName="Corps"/>
+        <columns xsi:type="bpm.process.table:OperationColumn" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150--765975101"/>
+        <columns xsi:type="bpm.process.table:OutcomeColumn" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150-301812974"/>
+        <columns xsi:type="bpm.process.table:CriterionColumn" id="slwBDpa7YNIPXKGjA3WWTO81QH0wKW6J" criterionType="#objective"/>
+        <decisions id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150-1925905225--1335780938">
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH"/>
+            </value>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+          </cells>
+          <cells key="pU3lg0gERcGXxukCIb3NM3ACydmAo39a">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="slwBDpa7YNIPXKGjA3WWTO81QH0wKW6J">
+            <value xsi:type="bpm.process.table:StringCell" value=""/>
+          </cells>
+        </decisions>
+        <decisions id="u7drlRHtgTBXFb5g530HcWOfznCrJIjq">
+          <cells key="pU3lg0gERcGXxukCIb3NM3ACydmAo39a">
+            <value xsi:type="bpm.process.table:StringCell" value="{Vide}"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="w1ou3YNljbOzmTeP75FUEtZHDg5SFiem"/>
+            </value>
+          </cells>
+          <cells key="slwBDpa7YNIPXKGjA3WWTO81QH0wKW6J">
+            <value xsi:type="bpm.process.table:StringCell" value="Corps vide"/>
+          </cells>
+        </decisions>
+        <decisions id="9a0VU5K96lkGjsjP2hK4203SM0iRtQ5Q">
+          <cells key="pU3lg0gERcGXxukCIb3NM3ACydmAo39a">
+            <value xsi:type="bpm.process.table:StringCell" value="Marc Hage Chahine"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+          </cells>
+          <cells key="slwBDpa7YNIPXKGjA3WWTO81QH0wKW6J">
+            <value xsi:type="bpm.process.table:StringCell" value="Que signature"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="K6FS2pIspVGS2pRRT5MCT6IzhTNM4u6A"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="n9RN7h3yNZDDspjSbC7IOf4eyqF8OSDV">
+          <cells key="pU3lg0gERcGXxukCIb3NM3ACydmAo39a">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150-301812974">
+            <value xsi:type="bpm.process.table:StringCell" value="->Enregistré en brouillon"/>
+          </cells>
+          <cells key="slwBDpa7YNIPXKGjA3WWTO81QH0wKW6J">
+            <value xsi:type="bpm.process.table:StringCell" value="Brouillon"/>
+          </cells>
+          <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150--765975101">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH"/>
+              <operations reference="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="bpm.process:Task" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903" name="Envoi" incomings="3FSiNAvMXbegcZOZ0BsfBh6m8xvf8UU9" outgoings="33Cla3fIegmlLsy2xg6hrgV86oE1pHPf 0ywyCqFkXpjWDAvJsmhH3XF0bBrAWcBD">
+      <table>
+        <columns xsi:type="bpm.process.table:DataColumn" id="x1KuNvavrhj1dx3Lw0sYQ3Uo8APETrCA" type="SET" dataName="Erreur"/>
+        <columns xsi:type="bpm.process.table:OperationColumn" id="OLGiBsbegoSdr5zFxgEd0BWhQXpiYJ9b"/>
+        <columns xsi:type="bpm.process.table:OutcomeColumn" id="PdxB7jvx3dZEuSHrljK589vC5NP3E2dp"/>
+        <columns xsi:type="bpm.process.table:CriterionColumn" id="2oOuRaCn9JZ2rjy6mFGiMEgrDN8YzW8g" criterionType="#objective"/>
+        <decisions id="LqsTdCJ5ed79iLmL10EzIc5waVsDU4nG">
+          <cells key="OLGiBsbegoSdr5zFxgEd0BWhQXpiYJ9b">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+            </value>
+          </cells>
+          <cells key="x1KuNvavrhj1dx3Lw0sYQ3Uo8APETrCA">
+            <value xsi:type="bpm.process.table:StringCell" value="Oui"/>
+          </cells>
+          <cells key="PdxB7jvx3dZEuSHrljK589vC5NP3E2dp">
+            <value xsi:type="bpm.process.table:StringCell" value="->Sujet"/>
+          </cells>
+          <cells key="2oOuRaCn9JZ2rjy6mFGiMEgrDN8YzW8g">
+            <value xsi:type="bpm.process.table:StringCell" value="Echec envoi"/>
+          </cells>
+        </decisions>
+        <decisions id="7ucVfqpYKVnEO3cS7tzIgY9djnThIA67">
+          <cells key="x1KuNvavrhj1dx3Lw0sYQ3Uo8APETrCA">
+            <value xsi:type="bpm.process.table:StringCell" value="Non"/>
+          </cells>
+          <cells key="OLGiBsbegoSdr5zFxgEd0BWhQXpiYJ9b">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
+            </value>
+          </cells>
+          <cells key="PdxB7jvx3dZEuSHrljK589vC5NP3E2dp">
+            <value xsi:type="bpm.process.table:StringCell" value="->Mail envoyé"/>
+          </cells>
+          <cells key="2oOuRaCn9JZ2rjy6mFGiMEgrDN8YzW8g">
+            <value xsi:type="bpm.process.table:StringCell" value=""/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="bpm.process:EndPoint" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-1622042223-1259627163" name="Mail envoyé" incomings="wp57uC0n69Ih6Z3k6KY2jvl63YM6JTHW"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-0" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-1" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542"/>
+    <flowElements xsi:type="bpm.process:Task" id="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x" name="Vérification" incomings="qHRW9qZ4ajN95fJ2cgVkbzizXOVZqgtD" outgoings="lJSYHK990DDaDKe8YpINYgH0NtLwROlk NJrT0GyJo6SZfTtzT7aDzzl9vJN6G8sW ZTHrAKfMRTYMUtVLUiOpJl5yNq55Eotf NVMROONNuwGMuBC6eBH2FO0eC0gX8qAP">
+      <table>
+        <columns xsi:type="bpm.process.table:DataColumn" id="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4" dataName="Corps"/>
+        <columns xsi:type="bpm.process.table:DataColumn" id="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f" dataName="Sujet_mail"/>
+        <columns xsi:type="bpm.process.table:DataColumn" id="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW" dataName="Destinataire_Mail"/>
+        <columns xsi:type="bpm.process.table:OperationColumn" id="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs"/>
+        <columns xsi:type="bpm.process.table:OutcomeColumn" id="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa"/>
+        <columns xsi:type="bpm.process.table:CriterionColumn" id="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke" criterionType="#objective"/>
+        <decisions id="kfnR0y1kqTkVd4Bme0q1dvZfWFqlKzIS">
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+            </value>
+          </cells>
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value=""/>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+        </decisions>
+        <decisions id="uJFozmGSFbY3Ji2EfGzOKc3onNVvXVm9">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
+              <operations reference="fCbXiCbH850b1MDd0k4rtg1ZVepSmb4m"/>
+            </value>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Envoyer quand même"/>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+        </decisions>
+        <decisions id="OTPuuQYLa5h7zbuWEb6eKaQ90MBzLBXz">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
+              <operations reference="RBjUjJV8M9EgSABPW7iW9t0p8V0a5MM3"/>
+            </value>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Sujet"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Ne pas envoyer"/>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+        </decisions>
+        <decisions id="167nN6XKiDss4hlggnSGDpiaXpqmH1oG">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value=""/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+            </value>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="CC"/>
+          </cells>
+        </decisions>
+        <decisions id="pPK0SnDNSwsf3ssrPjXmexgrihORqMCl">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value=""/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="AZcnqF5Dznt0qajuoG4WGDDUZBib6NT4"/>
+            </value>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Cci"/>
+          </cells>
+        </decisions>
+        <decisions id="mn4ja4YRlHJo0QdlAE3bYmxVHviRlWO0">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Destinataires"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Ne pas envoyer"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+            </value>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Aucun"/>
+          </cells>
+        </decisions>
+        <decisions id="RZGSHUNnGbCS9vRhothJFUhpUHRTlHcG">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Destinataires"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Ne pas envoyer"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+            </value>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="invalide"/>
+          </cells>
+        </decisions>
+        <decisions id="sHo8sKeqNgpOXcRzyjuVDXpIJKO4inNI">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="{Vide}"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Envoyer quand même"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="gWgqPb1g5oSIj2tbB39Kpy2Mzy8Ogtj3"/>
+              <operations reference="3g0fxd7a07wNQz9aLhPIs3c6fxiA49YZ"/>
+            </value>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+        </decisions>
+        <decisions id="Ry2cYggt7XDGbhKq4VIlUQBYgqMFuLw9">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="{Vide}"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Corps mail"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Ne pas envoyer"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="gWgqPb1g5oSIj2tbB39Kpy2Mzy8Ogtj3"/>
+              <operations reference="RBjUjJV8M9EgSABPW7iW9t0p8V0a5MM3"/>
+            </value>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+        </decisions>
+        <decisions id="WyTTY9nfUcZQtuwkexZp9qU1GRKTS72c">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Marc Hage Chahine"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value=""/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="KD0Hfg3iiZa7ycXl1D12nLdtsUZKXqvf"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="lJSYHK990DDaDKe8YpINYgH0NtLwROlk" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903" source="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="NJrT0GyJo6SZfTtzT7aDzzl9vJN6G8sW" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542" source="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="ZTHrAKfMRTYMUtVLUiOpJl5yNq55Eotf" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150" source="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="33Cla3fIegmlLsy2xg6hrgV86oE1pHPf" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903"/>
+    <flowElements xsi:type="bpm.process:EndPoint" id="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08" name="Enregistré en brouillon" incomings="l5413lRXng6boW65WdqsTBsv4moHHjEt Ja1KKAMk6KTPMLal3Q3puVlHhqTbs26n 10s62ObSe0Zg8vyU0FD5R7626LOvFMOE"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="l5413lRXng6boW65WdqsTBsv4moHHjEt" name="" target="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150"/>
+    <flowElements xsi:type="bpm.process:ChoicePoint" id="0gw4Bl5oDWtbzNe90ufVwubTy42hwbOi" name="Plateforme Utilisée ?" incomings="MK8OmycnnB4C7LtvCcpH7CgMLoX3emOS" outgoings="GrTBnMAyjK3ChiW6d0bdsypLXMiYUH0t f9vI6gRdSggnRfhySunS1OxjvlB7eHs6">
+      <table/>
+    </flowElements>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="MK8OmycnnB4C7LtvCcpH7CgMLoX3emOS" name="" target="0gw4Bl5oDWtbzNe90ufVwubTy42hwbOi" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--1704595256--1420635718"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="GrTBnMAyjK3ChiW6d0bdsypLXMiYUH0t" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903" source="0gw4Bl5oDWtbzNe90ufVwubTy42hwbOi"/>
+    <flowElements xsi:type="bpm.process:EndPoint" id="PyJOrVtBKBBoTAhWPRi6sZc89EdmeCsD" name="Renvoie sur une page d'erreur" incomings="f9vI6gRdSggnRfhySunS1OxjvlB7eHs6"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="f9vI6gRdSggnRfhySunS1OxjvlB7eHs6" name="" target="PyJOrVtBKBBoTAhWPRi6sZc89EdmeCsD" source="0gw4Bl5oDWtbzNe90ufVwubTy42hwbOi"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="Ja1KKAMk6KTPMLal3Q3puVlHhqTbs26n" name="" target="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="10s62ObSe0Zg8vyU0FD5R7626LOvFMOE" name="" target="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="qHRW9qZ4ajN95fJ2cgVkbzizXOVZqgtD" name="" target="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150"/>
+    <flowElements xsi:type="bpm.process:Task" id="OB2wRscMveE9UkuSq5ulMk9BE7zXD1vA" name="Pièces jointes" incomings="NVMROONNuwGMuBC6eBH2FO0eC0gX8qAP 9SJqxbwhdll0q7Yq2nsuxLDIJ7pxS6lS" outgoings="3FSiNAvMXbegcZOZ0BsfBh6m8xvf8UU9"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="NVMROONNuwGMuBC6eBH2FO0eC0gX8qAP" name="" target="OB2wRscMveE9UkuSq5ulMk9BE7zXD1vA" source="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="3FSiNAvMXbegcZOZ0BsfBh6m8xvf8UU9" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903" source="OB2wRscMveE9UkuSq5ulMk9BE7zXD1vA"/>
+    <flowElements xsi:type="bpm.process:ChoicePoint" id="ZZVFXCEyKq7tukn70hgUpnbCXNtp66Xz" name="Pièces jointes valides ?" incomings="0ywyCqFkXpjWDAvJsmhH3XF0bBrAWcBD" outgoings="wp57uC0n69Ih6Z3k6KY2jvl63YM6JTHW 9SJqxbwhdll0q7Yq2nsuxLDIJ7pxS6lS"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="0ywyCqFkXpjWDAvJsmhH3XF0bBrAWcBD" name="" target="ZZVFXCEyKq7tukn70hgUpnbCXNtp66Xz" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="wp57uC0n69Ih6Z3k6KY2jvl63YM6JTHW" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-1622042223-1259627163" source="ZZVFXCEyKq7tukn70hgUpnbCXNtp66Xz"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="9SJqxbwhdll0q7Yq2nsuxLDIJ7pxS6lS" name="" target="OB2wRscMveE9UkuSq5ulMk9BE7zXD1vA" source="ZZVFXCEyKq7tukn70hgUpnbCXNtp66Xz"/>
+    <diagram xsi:type="bpm.process.diagram:WorkflowDiagram" visible="true" gridUnit="-1" diagramTypeId="com.smartesting.bpm.process.diagram.metamodel.WorkflowDiagram" name="Workflow" pictogramLinks="//@testElements.0/@diagram/@children.0/@link //@testElements.0/@diagram/@children.2/@link //@testElements.0/@diagram/@children.3/@link //@testElements.0/@diagram/@children.4/@link //@testElements.0/@diagram/@children.5/@link //@testElements.0/@diagram/@children.6/@link //@testElements.0/@diagram/@connections.0/@link //@testElements.0/@diagram/@connections.1/@link //@testElements.0/@diagram/@children.8/@link //@testElements.0/@diagram/@connections.2/@link //@testElements.0/@diagram/@connections.3/@link //@testElements.0/@diagram/@connections.4/@link //@testElements.0/@diagram/@connections.5/@link //@testElements.0/@diagram/@children.9/@link //@testElements.0/@diagram/@connections.6/@link //@testElements.0/@diagram/@children.11/@link //@testElements.0/@diagram/@connections.7/@link //@testElements.0/@diagram/@connections.8/@link //@testElements.0/@diagram/@children.13/@link //@testElements.0/@diagram/@connections.9/@link //@testElements.0/@diagram/@connections.10/@link //@testElements.0/@diagram/@connections.11/@link //@testElements.0/@diagram/@connections.12/@link //@testElements.0/@diagram/@children.15/@link //@testElements.0/@diagram/@connections.13/@link //@testElements.0/@diagram/@connections.14/@link //@testElements.0/@diagram/@children.16/@link //@testElements.0/@diagram/@connections.15/@link //@testElements.0/@diagram/@connections.16/@link //@testElements.0/@diagram/@connections.17/@link" version="0.14.0">
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@testElements.0/@diagram/@colors.1" foreground="//@testElements.0/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+      <children xsi:type="bpm.process.diagram:StartPointShape" visible="true" active="true" flowNode="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--1704595256--1420635718" labelShape="//@testElements.0/@diagram/@children.1">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.2" lineWidth="2" transparency="0.0" width="31" height="31" x="311" y="10" style="//@testElements.0/@diagram/@styles.0"/>
+        <link businessObjects="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--1704595256--1420635718"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.7"/>
+      </children>
+      <children xsi:type="bpm.process.diagram:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.1/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.0">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="32" x="201" y="10"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="100" height="32" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Ouvrir composeur"/>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="134" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.0 //@testElements.0/@diagram/@connections.10" incomingConnections="//@testElements.0/@diagram/@connections.2 //@testElements.0/@diagram/@connections.5 //@testElements.0/@diagram/@connections.8"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Sujet"/>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.3/@children.0/@graphicsAlgorithm" flowNode="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="199" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.1 //@testElements.0/@diagram/@connections.11" incomingConnections="//@testElements.0/@diagram/@connections.0 //@testElements.0/@diagram/@connections.3"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Destinataires"/>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="264" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.6 //@testElements.0/@diagram/@connections.12" incomingConnections="//@testElements.0/@diagram/@connections.1 //@testElements.0/@diagram/@connections.4"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Corps mail"/>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.5/@children.0/@graphicsAlgorithm" flowNode="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="452" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.5 //@testElements.0/@diagram/@connections.15" incomingConnections="//@testElements.0/@diagram/@connections.14"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Envoi"/>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:EndPointShape" visible="true" active="true" flowNode="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-1622042223-1259627163" labelShape="//@testElements.0/@diagram/@children.7">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.8" lineWidth="4" transparency="0.0" width="31" height="31" x="312" y="563" style="//@testElements.0/@diagram/@styles.5"/>
+        <link businessObjects="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-1622042223-1259627163"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.16"/>
+      </children>
+      <children xsi:type="bpm.process.diagram:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.7/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.6">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="32" x="327" y="584"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="100" height="32" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Mail envoyé"/>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.8/@children.0/@graphicsAlgorithm" flowNode="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="330" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.2 //@testElements.0/@diagram/@connections.3 //@testElements.0/@diagram/@connections.4 //@testElements.0/@diagram/@connections.13" incomingConnections="//@testElements.0/@diagram/@connections.12"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérification"/>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:EndPointShape" visible="true" active="true" flowNode="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08" labelShape="//@testElements.0/@diagram/@children.10">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.8" lineWidth="4" transparency="0.0" width="31" height="31" x="494" y="274" style="//@testElements.0/@diagram/@styles.5"/>
+        <link businessObjects="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.6 //@testElements.0/@diagram/@connections.10 //@testElements.0/@diagram/@connections.11"/>
+      </children>
+      <children xsi:type="bpm.process.diagram:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.10/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.9">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="32" x="505" y="299"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="100" height="32" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Enregistré en&#xD;&#xA;brouillon"/>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:ChoicePointShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.11/@children.0/@graphicsAlgorithm //@testElements.0/@diagram/@children.11/@children.1/@graphicsAlgorithm" flowNode="0gw4Bl5oDWtbzNe90ufVwubTy42hwbOi" labelShape="//@testElements.0/@diagram/@children.12">
+        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="307" y="69" style="//@testElements.0/@diagram/@styles.3">
+          <points x="20"/>
+          <points x="40" y="20"/>
+          <points x="20" y="40"/>
+          <points y="20"/>
+          <points x="20"/>
+        </graphicsAlgorithm>
+        <link businessObjects="0gw4Bl5oDWtbzNe90ufVwubTy42hwbOi"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.8 //@testElements.0/@diagram/@connections.9" incomingConnections="//@testElements.0/@diagram/@connections.7"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="2">
+            <points x="12" y="12"/>
+            <points x="28" y="28"/>
+          </graphicsAlgorithm>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="2">
+            <points x="12" y="28"/>
+            <points x="28" y="12"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.12/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.11">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="120" height="37" x="175" y="71"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="120" height="37" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Plateforme Utilisée ?"/>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:EndPointShape" visible="true" active="true" flowNode="PyJOrVtBKBBoTAhWPRi6sZc89EdmeCsD" labelShape="//@testElements.0/@diagram/@children.14">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.8" lineWidth="4" transparency="0.0" width="31" height="31" x="494" y="74" style="//@testElements.0/@diagram/@styles.5"/>
+        <link businessObjects="PyJOrVtBKBBoTAhWPRi6sZc89EdmeCsD"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.9"/>
+      </children>
+      <children xsi:type="bpm.process.diagram:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.14/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.13">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="32" x="512" y="97"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="100" height="32" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Renvoie sur une&#xD;&#xA;page d'erreur"/>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.15/@children.0/@graphicsAlgorithm" flowNode="OB2wRscMveE9UkuSq5ulMk9BE7zXD1vA">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="391" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="OB2wRscMveE9UkuSq5ulMk9BE7zXD1vA"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.14" incomingConnections="//@testElements.0/@diagram/@connections.13 //@testElements.0/@diagram/@connections.17"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Pièces jointes"/>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:ChoicePointShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.16/@children.0/@graphicsAlgorithm //@testElements.0/@diagram/@children.16/@children.1/@graphicsAlgorithm" flowNode="ZZVFXCEyKq7tukn70hgUpnbCXNtp66Xz" labelShape="//@testElements.0/@diagram/@children.17">
+        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="307" y="514" style="//@testElements.0/@diagram/@styles.3">
+          <points x="20"/>
+          <points x="40" y="20"/>
+          <points x="20" y="40"/>
+          <points y="20"/>
+          <points x="20"/>
+        </graphicsAlgorithm>
+        <link businessObjects="ZZVFXCEyKq7tukn70hgUpnbCXNtp66Xz"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.16 //@testElements.0/@diagram/@connections.17" incomingConnections="//@testElements.0/@diagram/@connections.15"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="2">
+            <points x="12" y="12"/>
+            <points x="28" y="28"/>
+          </graphicsAlgorithm>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="2">
+            <points x="12" y="28"/>
+            <points x="28" y="12"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="bpm.process.diagram:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.17/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.16">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="32" x="347" y="519"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="100" height="32" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Pièces jointes&#xD;&#xA;valides ?"/>
+        </children>
+      </children>
+      <styles id="shape-bg-green-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-green-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="188" green="221" blue="186"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="188" green="221" blue="186"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="188" green="221" blue="186"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="188" green="221" blue="186"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="188" green="221" blue="186"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <styles id="shape-bg-gray-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-gray-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="219" green="219" blue="219"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="219" green="219" blue="219"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="219" green="219" blue="219"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="219" green="219" blue="219"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="219" green="219" blue="219"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <styles id="shape-bg-blue-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <styles id="shape-bg-yellow-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-yellow-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="255" green="227" blue="73"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="255" green="227" blue="73"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="227" blue="73"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="255" green="227" blue="73"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="227" blue="73"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <styles id="shape-bg-cyan-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-cyan-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="175" green="255" blue="255"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="175" green="255" blue="255"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="175" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="175" green="255" blue="255"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="175" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <styles id="shape-bg-red-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-red-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="255" green="144" blue="158"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="255" green="144" blue="158"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="144" blue="158"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="255" green="144" blue="158"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="144" blue="158"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.2/@anchors.0" end="//@testElements.0/@diagram/@children.3/@anchors.0" sequenceFlow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-0">
+        <graphicsAlgorithm xsi:type="al:Polyline" background="//@testElements.0/@diagram/@colors.9" foreground="//@testElements.0/@diagram/@colors.9" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-0"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.9" foreground="//@testElements.0/@diagram/@colors.9" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.3/@anchors.0" end="//@testElements.0/@diagram/@children.4/@anchors.0" sequenceFlow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-1">
+        <graphicsAlgorithm xsi:type="al:Polyline" background="//@testElements.0/@diagram/@colors.9" foreground="//@testElements.0/@diagram/@colors.9" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-1"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.9" foreground="//@testElements.0/@diagram/@colors.9" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.2/@anchors.0" sequenceFlow="lJSYHK990DDaDKe8YpINYgH0NtLwROlk">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="lJSYHK990DDaDKe8YpINYgH0NtLwROlk"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <bendpoints x="197" y="355"/>
+        <bendpoints x="197" y="159"/>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.3/@anchors.0" sequenceFlow="NJrT0GyJo6SZfTtzT7aDzzl9vJN6G8sW">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="NJrT0GyJo6SZfTtzT7aDzzl9vJN6G8sW"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <bendpoints x="214" y="355"/>
+        <bendpoints x="214" y="224"/>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.4/@anchors.0" sequenceFlow="ZTHrAKfMRTYMUtVLUiOpJl5yNq55Eotf">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="ZTHrAKfMRTYMUtVLUiOpJl5yNq55Eotf"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <bendpoints x="230" y="356"/>
+        <bendpoints x="230" y="290"/>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.5/@anchors.0" end="//@testElements.0/@diagram/@children.2/@anchors.0" sequenceFlow="33Cla3fIegmlLsy2xg6hrgV86oE1pHPf">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="33Cla3fIegmlLsy2xg6hrgV86oE1pHPf"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <bendpoints x="113" y="477"/>
+        <bendpoints x="113" y="159"/>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.4/@anchors.0" end="//@testElements.0/@diagram/@children.9/@anchors.0" sequenceFlow="l5413lRXng6boW65WdqsTBsv4moHHjEt">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="l5413lRXng6boW65WdqsTBsv4moHHjEt"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.0/@anchors.0" end="//@testElements.0/@diagram/@children.11/@anchors.0" sequenceFlow="MK8OmycnnB4C7LtvCcpH7CgMLoX3emOS">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="MK8OmycnnB4C7LtvCcpH7CgMLoX3emOS"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.11/@anchors.0" end="//@testElements.0/@diagram/@children.2/@anchors.0" sequenceFlow="GrTBnMAyjK3ChiW6d0bdsypLXMiYUH0t">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="GrTBnMAyjK3ChiW6d0bdsypLXMiYUH0t"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.11/@anchors.0" end="//@testElements.0/@diagram/@children.13/@anchors.0" sequenceFlow="f9vI6gRdSggnRfhySunS1OxjvlB7eHs6">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="f9vI6gRdSggnRfhySunS1OxjvlB7eHs6"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.2/@anchors.0" end="//@testElements.0/@diagram/@children.9/@anchors.0" sequenceFlow="Ja1KKAMk6KTPMLal3Q3puVlHhqTbs26n">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="Ja1KKAMk6KTPMLal3Q3puVlHhqTbs26n"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <bendpoints x="509" y="159"/>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.3/@anchors.0" end="//@testElements.0/@diagram/@children.9/@anchors.0" sequenceFlow="10s62ObSe0Zg8vyU0FD5R7626LOvFMOE">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="10s62ObSe0Zg8vyU0FD5R7626LOvFMOE"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <bendpoints x="509" y="224"/>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.4/@anchors.0" end="//@testElements.0/@diagram/@children.8/@anchors.0" sequenceFlow="qHRW9qZ4ajN95fJ2cgVkbzizXOVZqgtD">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="qHRW9qZ4ajN95fJ2cgVkbzizXOVZqgtD"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.15/@anchors.0" sequenceFlow="NVMROONNuwGMuBC6eBH2FO0eC0gX8qAP">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="NVMROONNuwGMuBC6eBH2FO0eC0gX8qAP"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.15/@anchors.0" end="//@testElements.0/@diagram/@children.5/@anchors.0" sequenceFlow="3FSiNAvMXbegcZOZ0BsfBh6m8xvf8UU9">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="3FSiNAvMXbegcZOZ0BsfBh6m8xvf8UU9"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.5/@anchors.0" end="//@testElements.0/@diagram/@children.16/@anchors.0" sequenceFlow="0ywyCqFkXpjWDAvJsmhH3XF0bBrAWcBD">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="0ywyCqFkXpjWDAvJsmhH3XF0bBrAWcBD"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.16/@anchors.0" end="//@testElements.0/@diagram/@children.6/@anchors.0" sequenceFlow="wp57uC0n69Ih6Z3k6KY2jvl63YM6JTHW">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="wp57uC0n69Ih6Z3k6KY2jvl63YM6JTHW"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.16/@anchors.0" end="//@testElements.0/@diagram/@children.15/@anchors.0" sequenceFlow="9SJqxbwhdll0q7Yq2nsuxLDIJ7pxS6lS">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="9SJqxbwhdll0q7Yq2nsuxLDIJ7pxS6lS"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <bendpoints x="236" y="534"/>
+        <bendpoints x="236" y="417"/>
+      </connections>
+      <colors red="227" green="238" blue="249"/>
+      <colors red="255" green="255" blue="255"/>
+      <colors red="164" green="193" blue="162"/>
+      <colors red="51" green="51" blue="51"/>
+      <colors red="191" green="191" blue="191"/>
+      <colors red="174" green="198" blue="207"/>
+      <colors red="255" green="198" blue="64"/>
+      <colors red="153" green="230" blue="227"/>
+      <colors red="239" green="126" blue="138"/>
+      <colors red="22" green="120" blue="163"/>
+      <colors red="200" green="200" blue="200"/>
+      <colors red="100" green="100" blue="100"/>
+      <fonts name="Segoe UI" size="9"/>
+    </diagram>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+    <prerequisite/>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Entrer le sujet: "/>
+        <stepElements xsi:type="project:StepField" id="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd" dataName="Sujet_mail" dataKind="designDataKind"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Sujet bien rentré"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Entrer l'adresse "/>
+        <stepElements xsi:type="project:StepField" id="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84" dataName="Adresse_mail_A" dataKind="designDataKind"/>
+        <stepElements xsi:type="project:StepText" content=" dans le champs A"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Adresse renseignée"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+    <prerequisite/>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Remplir le corps du mail avec "/>
+        <stepElements xsi:type="project:StepField" id="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx" dataName="Corps" dataKind="designDataKind"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Le corps de mail est bien rempli"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY">
+    <prerequisite/>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Ne pas entrer de sujet"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Aucun sujet n'est entré"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="MCl10unomLUfSVayzzXA5dEReoQcypSB">
+    <prerequisite/>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="N'entrer aucune adresse"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Aucune adresse n'est rentrée"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="w1ou3YNljbOzmTeP75FUEtZHDg5SFiem">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Ne rien entrer dans le corps du mail"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="L'adresse mail est valide, le sujet et le corps du mail non vides"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Aucune demande de confirmation d'envoi"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Sujet vide"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="fCbXiCbH850b1MDd0k4rtg1ZVepSmb4m">
+    <prerequisite/>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="confirmer envoi"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="RBjUjJV8M9EgSABPW7iW9t0p8V0a5MM3">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Ne pas envoyer"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Que CC, envoi valide"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="AZcnqF5Dznt0qajuoG4WGDDUZBib6NT4">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Que Cci, envoi valide"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Pas d'adresse"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1">
+    <prerequisite/>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Au moins 1 adresse invalide"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="gWgqPb1g5oSIj2tbB39Kpy2Mzy8Ogtj3">
+    <prerequisite/>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Corps vide"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="3g0fxd7a07wNQz9aLhPIs3c6fxiA49YZ">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Envoyer quad même"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Echec de l'envoi"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Envoi du mail"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Mail envoyé avec succès"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestCampaign" id="hPDgDU3G7iJqI4zveock5xhs0ezpy54G" name="Envoi de mail" folders="/"/>
+  <testElements xsi:type="project:PublisherConfiguration" id="wkMepBp9cl7fdt8L2K1WdjhRQjL59wu4" campaign="hPDgDU3G7iJqI4zveock5xhs0ezpy54G" name="PublicationExcel" publisherId="com.smartesting.publishers.excel.ExcelPublisherEditor">
+    <parameters name="descriptionLevel" value="LowLevelDescriptionKind"/>
+    <automationConfiguration>
+      <globalBefore/>
+      <globalAfter/>
+    </automationConfiguration>
+  </testElements>
+  <testElements xsi:type="project:PublisherConfiguration" id="Ag0yeNj1c3ULnovmwAYWTrLuzLPRTr3D" campaign="hPDgDU3G7iJqI4zveock5xhs0ezpy54G" name="PublicationSquashTM" publisherId="com.smartesting.publishers.squashtm.api.SquashTmApiPublisherEditor">
+    <parameters name="ServerAddress" value="http://localhost:8080/squash"/>
+    <parameters name="TestCaseFolder" value="Test Project-1"/>
+    <parameters name="RequirementFolder" value="Test Project-1"/>
+    <automationConfiguration>
+      <globalBefore/>
+      <globalAfter/>
+    </automationConfiguration>
+  </testElements>
+  <testElements xsi:type="project:PublisherConfiguration" id="1wV57Vvi3VLwR4ggpGr5n8yrYiTZRnxW" campaign="hPDgDU3G7iJqI4zveock5xhs0ezpy54G" name="Selenium" publisherId="com.smartesting.publishers.javaselenium.JavaSeleniumEditor">
+    <parameters name="DictionaryFile" value="C:/Users/mhagechahine/Desktop/Expertise/ITQ/DAB_Données/Dico - Low Level.xlsx"/>
+    <parameters name="DestinationPackageName" value="keyword_mail"/>
+    <automationConfiguration>
+      <operationScripts testOperation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1">
+        <after/>
+        <body>
+          <calls keywordId="Enter_mail_to" keywordName="Enter_mail_to">
+            <arguments parameterName="address">
+              <parameterValue>
+                <stepElements xsi:type="project:StepField" id="LiKfs4wHcRzF1s4VRaNn4BflKZUpQ5wH" dataName="A" dataKind="implementationDataKind"/>
+              </parameterValue>
+            </arguments>
+          </calls>
+          <calls keywordId="Enter_mail_Cc" keywordName="Enter_mail_Cc">
+            <arguments parameterName="address">
+              <parameterValue>
+                <stepElements xsi:type="project:StepField" id="2dxTN93g9GQzRp1fT8VOyYGpdydkNyXe" dataName="Copie" dataKind="implementationDataKind"/>
+              </parameterValue>
+            </arguments>
+          </calls>
+          <calls keywordId="Enter_mail_Cci" keywordName="Enter_mail_Cci">
+            <arguments parameterName="address">
+              <parameterValue>
+                <stepElements xsi:type="project:StepField" id="tyyOivbU7D74QlG6Jya7UTblE6EefckH" dataName="Copie_cachée" dataKind="implementationDataKind"/>
+              </parameterValue>
+            </arguments>
+          </calls>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN">
+        <after/>
+        <body>
+          <calls keywordId="#!#Smartesting.Keyword.NoAction#!#" keywordName=""/>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+        <after/>
+        <body>
+          <calls keywordId="Enter_subject" keywordName="Enter_subject">
+            <arguments parameterName="text">
+              <parameterValue>
+                <stepElements xsi:type="project:StepField" id="RrxVSAs47aC1dpSKpzK4jjCLccvHzVYK" dataName="Sujet" dataKind="implementationDataKind"/>
+              </parameterValue>
+            </arguments>
+          </calls>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY">
+        <after/>
+        <body>
+          <calls keywordId="#!#Smartesting.Keyword.NoAction#!#" keywordName=""/>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="MCl10unomLUfSVayzzXA5dEReoQcypSB">
+        <after/>
+        <body>
+          <calls keywordId="#!#Smartesting.Keyword.NoAction#!#" keywordName=""/>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+        <after/>
+        <body>
+          <calls keywordId="Enter_mail_to" keywordName="Enter_mail_to">
+            <arguments parameterName="address">
+              <parameterValue>
+                <stepElements xsi:type="project:StepField" id="FLXvGQXYUGFWJcCLbmVlhpFety0m2E7Q" dataName="A" dataKind="implementationDataKind"/>
+              </parameterValue>
+            </arguments>
+          </calls>
+          <calls keywordId="Enter_mail_Cc" keywordName="Enter_mail_Cc">
+            <arguments parameterName="address">
+              <parameterValue>
+                <stepElements xsi:type="project:StepField" id="aEGeWjumnEJRbYMz1OFXKuwoGqjOw0ws" dataName="Copie" dataKind="implementationDataKind"/>
+              </parameterValue>
+            </arguments>
+          </calls>
+          <calls keywordId="Enter_mail_Cci" keywordName="Enter_mail_Cci">
+            <arguments parameterName="address">
+              <parameterValue>
+                <stepElements xsi:type="project:StepField" id="0Mc511EGsuNiZ9CQpR9EfOwGwbfirPlD" dataName="Copie_cachée" dataKind="implementationDataKind"/>
+              </parameterValue>
+            </arguments>
+          </calls>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+        <after/>
+        <body>
+          <calls keywordId="Enter_Body" keywordName="Enter_Body">
+            <arguments parameterName="text">
+              <parameterValue>
+                <stepElements xsi:type="project:StepField" id="DNaIZasFyaVECLcRgMsi6lhdx0vgXARx" dataName="Contenu" dataKind="implementationDataKind"/>
+              </parameterValue>
+            </arguments>
+            <arguments parameterName="signature">
+              <parameterValue>
+                <stepElements xsi:type="project:StepField" id="gguWC7xpIaOC5mzUwSfEEY1W9ZvAWq3x" dataName="Signature" dataKind="implementationDataKind"/>
+              </parameterValue>
+            </arguments>
+          </calls>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM">
+        <after/>
+        <body>
+          <calls keywordId="ClickButton" keywordName="ClickButton">
+            <arguments parameterName="ID">
+              <parameterValue>
+                <stepElements xsi:type="project:StepText" content="SendMail"/>
+              </parameterValue>
+            </arguments>
+          </calls>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J">
+        <after/>
+        <body>
+          <calls keywordId="#!#Smartesting.Keyword.NoAction#!#" keywordName=""/>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="AZcnqF5Dznt0qajuoG4WGDDUZBib6NT4">
+        <after/>
+        <body>
+          <calls keywordId="#!#Smartesting.Keyword.NoAction#!#" keywordName=""/>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="gWgqPb1g5oSIj2tbB39Kpy2Mzy8Ogtj3">
+        <after/>
+        <body>
+          <calls keywordId="#!#Smartesting.Keyword.NoAction#!#" keywordName=""/>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="fCbXiCbH850b1MDd0k4rtg1ZVepSmb4m">
+        <after/>
+        <body>
+          <calls keywordId="Check_Text" keywordName="Check_Text">
+            <arguments parameterName="ID">
+              <parameterValue>
+                <stepElements xsi:type="project:StepText" content="SendingMail"/>
+              </parameterValue>
+            </arguments>
+            <arguments parameterName="text">
+              <parameterValue>
+                <stepElements xsi:type="project:StepText" content="Il manque le sujet ou le corps du mail est vide, souhaitez-vous quand même l'envoyer ?"/>
+              </parameterValue>
+            </arguments>
+          </calls>
+          <calls keywordId="ClickButton" keywordName="ClickButton">
+            <arguments parameterName="ID">
+              <parameterValue>
+                <stepElements xsi:type="project:StepText" content="Send_Yes"/>
+              </parameterValue>
+            </arguments>
+          </calls>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN">
+        <after/>
+        <body>
+          <calls keywordId="Check_Text" keywordName="Check_Text">
+            <arguments parameterName="ID">
+              <parameterValue>
+                <stepElements xsi:type="project:StepText" content="Sujet"/>
+              </parameterValue>
+            </arguments>
+            <arguments parameterName="text">
+              <parameterValue>
+                <stepElements xsi:type="project:StepText" content="{vide}"/>
+              </parameterValue>
+            </arguments>
+          </calls>
+        </body>
+        <before/>
+      </operationScripts>
+      <globalBefore>
+        <calls keywordId="OpenApplication" keywordName="OpenApplication">
+          <arguments parameterName="ID">
+            <parameterValue>
+              <stepElements xsi:type="project:StepText" content="mail.altran"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+        <calls keywordId="ClickButton" keywordName="ClickButton">
+          <arguments parameterName="ID">
+            <parameterValue>
+              <stepElements xsi:type="project:StepText" content="Open_composer"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+      </globalBefore>
+      <globalAfter>
+        <calls keywordId="CloseApplication" keywordName="CloseApplication">
+          <arguments parameterName="ID">
+            <parameterValue>
+              <stepElements xsi:type="project:StepText" content="mail.altran"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+      </globalAfter>
+    </automationConfiguration>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="K6FS2pIspVGS2pRRT5MCT6IzhTNM4u6A">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Remplir le cors du mail avec "/>
+        <stepElements xsi:type="project:StepField" id="kH7mx9sGwxnLqWZzyTdHLbTUTZHQ7y5u" dataName="Corps" dataKind="designDataKind"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="La signature est bien ajoutée"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Quitter le composeur"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Le mail est enregistré"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Entrer l'adresse "/>
+        <stepElements xsi:type="project:StepField" id="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY" dataName="Adresse_mail_CC" dataKind="designDataKind"/>
+        <stepElements xsi:type="project:StepText" content=" en CC"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Adresse renseignée"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Entrer l'adresse "/>
+        <stepElements xsi:type="project:StepField" id="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF" dataName="Adresse_mail_CCi" dataKind="designDataKind"/>
+        <stepElements xsi:type="project:StepText" content=" en Cci"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Adresse renseignée"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="KD0Hfg3iiZa7ycXl1D12nLdtsUZKXqvf">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Corps non vide car il y a une signature"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Aucune demande de confirmation d'envoi"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="5uIvc1X3ZLwuyS8MD19GZhA5uqD2bUKO" name="Que Cc-Echec envoi-Que Cci-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="pJ97KGUUGw9EFaehaBsjH40CU0bZmXY2" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="aMJLI9IAePCjNutCDQwiAs4zLKZbJZnf" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="3E0KEWtmoPmF7cE7mpxToV25vVHRC9Cu" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="cYRmHEZcyo11lughlEt0VCZIWVpuoiXZ" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="K8V0NfiCbtSTijw3VxkYv0oXrJzezqti" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="CK8kuiOBFvnUIZ8JA3iuxhRaArGyWfqL" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="wJiIMLfQCqjMjrRZxeeKM9hYBgnl30B5" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="RXPyMh060EhVoX8xscY5gMf0t9RQl9J5" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="aVSuMhD4aIyPiOWfxZU8chO8uXi3HNDt" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="4Y8TLESCcR4Vo3tenvMCggKvtYwMY5pR" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="mSgr46bYW6YEVjAeIlp8umkadw40nGUW" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="nUgyLdeyGfQZYAvUQn9K9vfwne6TtdzY" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="XCZyeVBdytRAvgp1jdvZacnqMMCDjOGb" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="cvoXnwuOuxt6S2nNTPyu65LwGS6DXoV1" operation="AZcnqF5Dznt0qajuoG4WGDDUZBib6NT4"/>
+    <testActions id="ehlneh4NXRK31cyQCDOD2A6uqZns3D0P" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="8GuuLfPNm2AaJMshN2U1Zk0stsg3f8kE" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="K88ThOGLuwO71OFyHJcBuKDpdIjLjXVQ" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="pvwfOIGfYB23JthzgGOuMigEJ1EEX1bJ" name="Dest OK-Corps vide-Envoyer quand même" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="JuV8zjLP95Ocr5JlQXoDqk39IwfBegw6" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="8NC7kHdKPbe3p0vt3WaCM89DuKIiS5yz" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="lvDb1I49OGiOPuY2P1O70y5higZ9rndp" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="lNxfvyrqFXjS8bblYU0aIJXfUbDLuxh7" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="z5v6oawBgeMQekukwFPHBMXrdkQAm7Kj" operation="w1ou3YNljbOzmTeP75FUEtZHDg5SFiem"/>
+    <testActions id="kXu55A2tcdTyhXJ5fkt9jMRcGambsxFo" operation="gWgqPb1g5oSIj2tbB39Kpy2Mzy8Ogtj3"/>
+    <testActions id="27BUxlPhMctmRmqnUSVKYEu841ae1daL" operation="3g0fxd7a07wNQz9aLhPIs3c6fxiA49YZ"/>
+    <testActions id="VHdodUBsbGdeu51OF9R9Da91ZzcCw27Q" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="4hEK3tz6RtvAABrgOYq3cWvX5HLo28E5" name="Dest OK-Ne pas envoyer-Que signature-Echec envoi-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="Ceg0FW2gyMoh5dnqVnPKJPyBWuDOwZ5I" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="QnhCWMlveC2lyb0O4A8Hl1jFnaxUTmbQ" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="1bKth8XatwNMXc5x09bpua9mdh2iCdvU" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="M5YIFetVThECJ36IjU009BDR6Sj3wgSA" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="yj65EvnPAuQ1USrnBOk4vbx3soVzXWXC" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="YiPG96IGmQ0cxIInttMmgFxnPJEeunoN" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="r7HPjcTJ5GK2urTYXUQMop4He1gSiqpM" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="AmE9lm0TEMq4lNIDUunx2etLgesk21Q7" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="0CiWavfELsHFQrT6EgAlIN1mGM2dVmQb" operation="K6FS2pIspVGS2pRRT5MCT6IzhTNM4u6A">
+      <stepFieldValues referencedStepField="kH7mx9sGwxnLqWZzyTdHLbTUTZHQ7y5u">
+        <value definition="Marc Hage Chahine"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="6c3YRw8XysHzBhEYURn5i8VLqDF4YVHA" operation="KD0Hfg3iiZa7ycXl1D12nLdtsUZKXqvf"/>
+    <testActions id="nIvVFuSemf6ktj8yA2lB5upE9oOTSdfy" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="RMk0KYXyqFjsuo8PsxcF9Bu69fY1SESM" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="zdlfGg7ugqi9J74TJzyLQL91P8GOAK8q" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="dZCYxKvLMBGPfBuac7hlDaEAhfPNiFrj" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="1DnF6cwjiNQXu8zBZB1Y5kXPJvZO1cQY" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="8rTx7JJpikIw89j6XGgzqotoxAhQxABZ" name="Dest OK-Ne pas envoyer-Echec envoi-0 dest-Corps vide-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="037LujrDHPZSlcNZVZh7KRPE1dcJBXea" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="zWPM83yBMstKTisrGkTcEg3t6jvqKD3g" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="9YqXs4xmshJpOIUoU8tIgxsESXw3CUCS" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="XVoHHuPS3L1M1YHDfKjiSnOOigX0PdWj" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="OqyY8LjwkfGbEkAu3ZOx9lKfGiL14ApQ" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="7n0DeBs2danKtonTr8zR87Dcs1X7jihv" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Kn4A7JbDgIGM3xxPi189MEYvWEPxGlTS" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="NhE5DWLq4O0ZZaSBtdOQs1830VKlYHzf" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Isg9YiGdODqDiOAVrUpVX16HtYBmRdrZ" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="hyRmy6AD70v0vLVMWUlUSIhq3GG1zhwP" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="ndZrhgHBnpuv7ITsQA5PbiGqrnrdBF7o" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="ww6pWOl31FTTw1v1UouKR2DVVf1trNrF" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="dJmYBvjD5Vf6wqZdHWOY8GYrVukaeWD0" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="T7pziCGYdgZiuq3DcuSpHGOrQVnGNvRg" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="IlPDXymEsxHKUMmijKCYOHZV7bChTz4y" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="VyaVKBPVa5X9xjfAecmGEYejCWjHSjLJ" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="K2PJliLK2bWl0IFeF9pFB3BAwUty4nZh" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="wiD6bkSDsjnze7SI1TA27vcnseczQO7e" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="oSCwPkSyJrms1pYQMx2HdfEGheuaqrgf" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="E83ATcPT2wEXxSBEXStEA6hlsVmc1klB" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="TEwUlRoXOuJgXLAuWIuNY7qNjXCbNTTm" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="LYCVZw4cXZRGDJeY0DoQSTstMJfxY0Ft" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="gzssj672Ot7mDtoMTRASFnofpyabUjj9" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="aTpKu8rRyw4n5Kycy6VK16b71tskn5nQ" operation="w1ou3YNljbOzmTeP75FUEtZHDg5SFiem"/>
+    <testActions id="youqpNcfl0lh77jN8IDm8WEGKulzMPJn" operation="gWgqPb1g5oSIj2tbB39Kpy2Mzy8Ogtj3"/>
+    <testActions id="2fBQgrsdbUeArSNBHhQ6kz76SNuaw6oZ" operation="RBjUjJV8M9EgSABPW7iW9t0p8V0a5MM3"/>
+    <testActions id="SIIiCF0nHPK845bIXcllnBtM25jMPydY" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="5nOj1Yey8lU5jXcYGudQ2rXeJVjdU3Wn" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="b0B56a7aPiZcyiBuXfAklntswqYWzpOb" name="Dest OK-Ne pas envoyer-Echec envoi-0 dest-Que Cc-Sans sujet-Envoyer quand même-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="MsfyFxpyTgB5gnsPt7QZ1MbNuAB1hnEG" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="1zK4My8HOIAXMzSU60X0ZVLIfvRfbzee" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="8dzBSn2okRPOINRVuHaUZwuHWDbsgiN6" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="bWohCBgopOQe5MhJSgqKRtBi5DAGrLLm" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="ceqQTXODapeuYapclu1qvVx3PRVcI7SZ" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Btxg1zl54BZyhzJkHErje4z5Mh07hDJB" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="dMuC8lb01ckCYZkA9A0l5F6hYNoMGFRw" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="6oqAjCNdQ3K324FzKeKuCWRXyVe4qLKu" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="r9L4uR6vnLLy5kZ866pI7j6Uo8UJhRE7" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="z03lzYBVKgPJz1BDJ4gsEBx7aQnwevHj" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="HcRY0vshcbIMdy6pMQOS7rLpbmuGmSwD" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="CUUaiMm8G27StkL7Hvx8ixEIxbMBLdWZ" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="U9HejIZIzgTfAjgA8e3XbnxTccYP0LpT" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="758XuH77BbES0G6PDNrK4avEYr8bPMnX" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Vp7qnTF92vMcDNxUdJd90bpgcvtUC0do" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="wGTlIumRUKC42TmOZezItjQqVmBbdqcH" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="gzLp2Ptb96Afkyio47xZv9Cnpb9ISvD8" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="FiPqgLHQEk3bFeL9NxOA3CSVQRnIxFvo" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="9HePtLmcopAZIZA2sDKBuhWU71aZqId9" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="h8yv3o5dghfFV3trDcQfDP3FOqi2SoBq" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="vx24PmIoV1XcyaZZry0G6wgMsna88qy1" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="L4pBvt25YOVXGZ3ALfxnq1GY0Xib5jRY" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="QU2qqlEUuKrvRlraHrOOLPtfhzT7IibU" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="S1SDvQ44x5IpQ4yrS3kvDRaWfCmJgIiL" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="P8VwckO8X4brF4hFfPLJQvZIH5YNXdo0" operation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
+    <testActions id="d5u7ipz9YsdSgVAgqd3HQOCDWLmkOa4r" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="n2tuVylFILsHtGid8lWRWmV5bxeMD3Qr" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="P3d1auwAvbDoNBRpOTPzQNqEoxNlG0qe" operation="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
+    <testActions id="EU4aQZko017aMp5AawSU0ii9UnCorSCH" operation="fCbXiCbH850b1MDd0k4rtg1ZVepSmb4m"/>
+    <testActions id="2GuwJYPxvjjdeIDtNmKI66dPak3cRjgZ" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="4Yvlu7FaMEQG9a5UkXwoWCD7brkpOqqX" operation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
+    <testActions id="zAXK8gAYp40PNMVKmAxJMY4OqzTTEA0f" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="E7eHoFU5YJFrr9rtfqUDATmfeZXQ1oGP" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="y1hPWUSJa67HL1IuEXCDuUbWsMqfniPH" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="G4MmUlSJ2y0ZN8IvEgzFPqQHlHNlV1wu" name="Dest OK-Ne pas envoyer-Echec envoi-0 dest-Que Cc-Sans sujet-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="Cpk2IYbYU8WrU6XAuJQ1zXrGw4RcSEg4" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="8bpnxzjY38pRhf3T2cEAwrf7k7h3f24O" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="7SF6duu1GJZTJgcP35NUClJgy8utE5wZ" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="sn7kc1Ckjz34MzdhaUdMD0jCuGYI2Vln" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="zHiv615YQLA4yvxb1lvhfad5FvY2UmU4" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="DY0mBqbl41jO2voy4Mio0E2GGAQCjV56" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="C1eFSP7dt1MmsHTK94mKZObyfuBpOBfZ" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="FPOHHD6mWZRMysAib7j5kxXNRofGLS9t" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="YLj9n0KflhCtX4KSvZDr1QXzz8gEy8IW" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="F6dTcojZY3ly4jyZaZZrHeJN4peKD30Z" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="IplxwtZ5coKj8axMDnVhOjaATHW6kcDU" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="vhJOKaU7FwGaeypn6J959tFqsyGn3qJJ" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="UQsmHFoJ4poRLFi2D4QhufzKp6Jjn6nm" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="YjvZTzUZnnlpqd0hHSkvF88HlDHBdLCS" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="eSgl9KhiUWWFFhuGtbCFzsZvQ02djsqG" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="G5MvaOtbfDDRHPzzPh4MlGeUC7z9sgoz" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="y6VNfYIVm7fxpwsxxCKbBLpO9FranpYU" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="T88KNmTQCWWM7HBn4SzeqVmsI4k8TeLx" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="NifhTpQyI1WmCHxdAG1XMD9Lqg7etAZb" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="P1l9uOcA0L4W4zsPDJYbIZDB7UvSNf8H" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="wn7jYpa4J8SmCW8ve0oG9HU6iAwETHeO" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="xjTo7t0ckj3q7ZGi3L8TotB9J29vofFz" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="jToQmdceb0GI9BIML8T40TRVQF0RsY3v" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="cLgMwIRODTYOW297WH9nKISfABuAtBdG" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="FQWcGSkauVWYfe53nIy19mCH3c3Pkn7E" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="wjTDLuxzsscpZTIVzUeojB4bJni8eyBx" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="hf7R3Q02z71QM2ZqToDTJnD1yKKDhM9a" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="uu5uyrtYDfSuSZM6AwvIndZwYyChdOpp" operation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
+    <testActions id="2cbzymeVDKiDgGuR37UeKPBozNTMx6Hq" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="BymgWessPmDz0UYLfz2Z871LWuK8XMSK" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="7iuJ14ipJYSGWIDkaJErHuDluYQjVwea" operation="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
+    <testActions id="ngHbIq5Y3N6LdD6o2WV128t6bpkb9zhW" operation="RBjUjJV8M9EgSABPW7iW9t0p8V0a5MM3"/>
+    <testActions id="Z1U1lEOagfaxHxExwT8iIWrAhnr3xNGJ" operation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
+    <testActions id="oQgk0PWFv5KB7vAycoarczJtBuMm6kGe" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="VBbOACcDkVhQj29YKtqe4QpAewlag60R" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="JfNnj9onNQNHIQDlpLpZdFajmLPGt0uw" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="project:PublisherConfiguration" id="wSw3wxQhmZqHmzM2H4rNcGbHW9EnGW2F" campaign="hPDgDU3G7iJqI4zveock5xhs0ezpy54G" name="PublicationXStudio" publisherId="com.smartesting.publishers.xstudio.XstudioEditor">
+    <automationConfiguration>
+      <globalBefore/>
+      <globalAfter/>
+    </automationConfiguration>
+  </testElements>
+  <dataDictionary name="#dictionary">
+    <datas name="Sujet_mail" id="535b4e7ec5cc4d7b2148f61ce21439df"/>
+    <datas name="Adresse_mail_A" id="be16c892ca0d3c2a7a67231eb11d8548"/>
+    <datas name="Mail" id="e64841fd218e4a87a77028702f6f4232"/>
+    <datas name="PJ" id="99eb551a21e550a69098da63d6869151"/>
+    <datas name="Destinataire" id="fe3a0ad57bd6984634df92ee4503f619"/>
+    <datas name="Corps" id="e6ecc803aba79a89cc30e62410a40082"/>
+    <datas name="compteur" id="06b9458ca766e84f8c4957f19fc13921"/>
+    <datas name="Erreur" id="27af0689f9ade09491199cf257c475c4"/>
+    <datas name="Sujet" id="5104b0fd16268cae16d34ffdff1e3d5e"/>
+    <datas name="Adresse_mail_CC" id="5MzlctDblzBkfAo4RXTcpsRnpfITUp77"/>
+    <datas name="Adresse_mail_CCi" id="Zr8yTr1Mz2RHuwDpU12NmUywlP66jwAT"/>
+    <datas name="Destinataire_Mail" id="2pBAKOGFVBmSrNtyrfs7JNZfmmRE9IsF"/>
+  </dataDictionary>
+  <dataSetCatalog name="#catalog">
+    <dataReferences xsi:type="project:ImplementationData" dataName="Sujet"/>
+    <dataReferences xsi:type="project:ImplementationData" dataName="Sujet_valide"/>
+    <dataReferences xsi:type="project:ImplementationData" dataName="Sujet_vide"/>
+    <dataReferences xsi:type="project:DesignData" dataName="Sujet"/>
+    <dataReferences xsi:type="project:DesignData" dataName="Sujet_mail"/>
+    <dataReferences xsi:type="project:DesignData" dataName="Adresse_mail_A"/>
+    <dataReferences xsi:type="project:ImplementationData" dataName="Mail"/>
+    <dataReferences xsi:type="project:DesignData" dataName="Mail"/>
+    <dataReferences xsi:type="project:DesignData" dataName="PJ"/>
+    <dataReferences xsi:type="project:ImplementationData" dataName="Nombre_PJ"/>
+    <dataReferences xsi:type="project:ImplementationData" dataName="Taille_totale_PJs"/>
+    <dataReferences xsi:type="project:ImplementationData" dataName="Format_PJ"/>
+    <dataReferences xsi:type="project:DesignData" dataName="Destinataire"/>
+    <dataReferences xsi:type="project:ImplementationData" dataName="A"/>
+    <dataReferences xsi:type="project:ImplementationData" dataName="Copie"/>
+    <dataReferences xsi:type="project:ImplementationData" dataName="Copie_cachée"/>
+    <dataReferences xsi:type="project:DesignData" dataName="Corps"/>
+    <dataReferences xsi:type="project:ImplementationData" dataName="Contenu"/>
+    <dataReferences xsi:type="project:ImplementationData" dataName="Signature"/>
+  </dataSetCatalog>
+</project:Project>
