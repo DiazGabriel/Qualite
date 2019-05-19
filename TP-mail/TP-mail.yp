@@ -251,7 +251,7 @@
         </decisions>
       </table>
     </flowElements>
-    <flowElements xsi:type="bpm.process:Task" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150" name="Corps mail" incomings="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-1 ZTHrAKfMRTYMUtVLUiOpJl5yNq55Eotf" outgoings="l5413lRXng6boW65WdqsTBsv4moHHjEt qHRW9qZ4ajN95fJ2cgVkbzizXOVZqgtD">
+    <flowElements xsi:type="bpm.process:Task" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150" name="Corps mail" incomings="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-1 ZTHrAKfMRTYMUtVLUiOpJl5yNq55Eotf" outgoings="l5413lRXng6boW65WdqsTBsv4moHHjEt frmEMkWBGzTt4TPIJDlgXE8q3a1DUE8b">
       <table>
         <columns xsi:type="bpm.process.table:DataColumn" id="pU3lg0gERcGXxukCIb3NM3ACydmAo39a" type="SET" dataName="Corps"/>
         <columns xsi:type="bpm.process.table:OperationColumn" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150--765975101"/>
@@ -264,7 +264,7 @@
             </value>
           </cells>
           <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150-301812974">
-            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
           </cells>
           <cells key="pU3lg0gERcGXxukCIb3NM3ACydmAo39a">
             <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
@@ -278,7 +278,7 @@
             <value xsi:type="bpm.process.table:StringCell" value="{Vide}"/>
           </cells>
           <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150-301812974">
-            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
           </cells>
           <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150--765975101">
             <value xsi:type="bpm.process.table:OperationCell">
@@ -294,7 +294,7 @@
             <value xsi:type="bpm.process.table:StringCell" value="Marc Hage Chahine"/>
           </cells>
           <cells key="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150-301812974">
-            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
           </cells>
           <cells key="slwBDpa7YNIPXKGjA3WWTO81QH0wKW6J">
             <value xsi:type="bpm.process.table:StringCell" value="Que signature"/>
@@ -324,7 +324,7 @@
         </decisions>
       </table>
     </flowElements>
-    <flowElements xsi:type="bpm.process:Task" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903" name="Envoi" incomings="3FSiNAvMXbegcZOZ0BsfBh6m8xvf8UU9" outgoings="33Cla3fIegmlLsy2xg6hrgV86oE1pHPf 0ywyCqFkXpjWDAvJsmhH3XF0bBrAWcBD">
+    <flowElements xsi:type="bpm.process:Task" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903" name="Envoi" incomings="5eI06iTF4jMEkClv2RiYTe5PfteG5SlV" outgoings="33Cla3fIegmlLsy2xg6hrgV86oE1pHPf reaWMlenUhhFKA9FSsZ7UnokDeCHe0tf">
       <table>
         <columns xsi:type="bpm.process.table:DataColumn" id="x1KuNvavrhj1dx3Lw0sYQ3Uo8APETrCA" type="SET" dataName="Erreur"/>
         <columns xsi:type="bpm.process.table:OperationColumn" id="OLGiBsbegoSdr5zFxgEd0BWhQXpiYJ9b"/>
@@ -364,14 +364,17 @@
         </decisions>
       </table>
     </flowElements>
-    <flowElements xsi:type="bpm.process:EndPoint" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-1622042223-1259627163" name="Mail envoyé" incomings="wp57uC0n69Ih6Z3k6KY2jvl63YM6JTHW"/>
+    <flowElements xsi:type="bpm.process:EndPoint" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-1622042223-1259627163" name="Mail envoyé" incomings="reaWMlenUhhFKA9FSsZ7UnokDeCHe0tf"/>
     <flowElements xsi:type="bpm.process:SequenceFlow" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-0" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903"/>
     <flowElements xsi:type="bpm.process:SequenceFlow" id="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--391163767-1" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542"/>
-    <flowElements xsi:type="bpm.process:Task" id="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x" name="Vérification" incomings="qHRW9qZ4ajN95fJ2cgVkbzizXOVZqgtD" outgoings="lJSYHK990DDaDKe8YpINYgH0NtLwROlk NJrT0GyJo6SZfTtzT7aDzzl9vJN6G8sW ZTHrAKfMRTYMUtVLUiOpJl5yNq55Eotf NVMROONNuwGMuBC6eBH2FO0eC0gX8qAP">
+    <flowElements xsi:type="bpm.process:Task" id="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x" name="Vérification" incomings="JHf8iMeeQ6fqKkSktd9c9AoxkOQg6hUU" outgoings="lJSYHK990DDaDKe8YpINYgH0NtLwROlk NJrT0GyJo6SZfTtzT7aDzzl9vJN6G8sW ZTHrAKfMRTYMUtVLUiOpJl5yNq55Eotf 5eI06iTF4jMEkClv2RiYTe5PfteG5SlV K8cmfYolzlQN3obgNCn48TYzpSFGvI7D">
       <table>
         <columns xsi:type="bpm.process.table:DataColumn" id="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4" dataName="Corps"/>
         <columns xsi:type="bpm.process.table:DataColumn" id="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f" dataName="Sujet_mail"/>
         <columns xsi:type="bpm.process.table:DataColumn" id="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW" dataName="Destinataire_Mail"/>
+        <columns xsi:type="bpm.process.table:DataColumn" id="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq" dataName="Nombre_de_PJs"/>
+        <columns xsi:type="bpm.process.table:DataColumn" id="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj" dataName="Taille_PJs"/>
+        <columns xsi:type="bpm.process.table:DataColumn" id="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT" dataName="Format_PJs"/>
         <columns xsi:type="bpm.process.table:OperationColumn" id="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs"/>
         <columns xsi:type="bpm.process.table:OutcomeColumn" id="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa"/>
         <columns xsi:type="bpm.process.table:CriterionColumn" id="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke" criterionType="#objective"/>
@@ -388,13 +391,22 @@
             <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
           </cells>
           <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
-            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+            <value xsi:type="bpm.process.table:StringCell" value="->Envoi"/>
           </cells>
           <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
             <value xsi:type="bpm.process.table:StringCell" value=""/>
           </cells>
           <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
             <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="0"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="0Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
           </cells>
         </decisions>
         <decisions id="uJFozmGSFbY3Ji2EfGzOKc3onNVvXVm9">
@@ -411,13 +423,22 @@
             </value>
           </cells>
           <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
-            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+            <value xsi:type="bpm.process.table:StringCell" value="->Envoi"/>
           </cells>
           <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
             <value xsi:type="bpm.process.table:StringCell" value="Envoyer quand même"/>
           </cells>
           <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
             <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="0"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="0Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
           </cells>
         </decisions>
         <decisions id="OTPuuQYLa5h7zbuWEb6eKaQ90MBzLBXz">
@@ -442,6 +463,15 @@
           <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
             <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
           </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="0"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="0Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
         </decisions>
         <decisions id="167nN6XKiDss4hlggnSGDpiaXpqmH1oG">
           <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
@@ -451,7 +481,7 @@
             <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
           </cells>
           <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
-            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+            <value xsi:type="bpm.process.table:StringCell" value="->Envoi"/>
           </cells>
           <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
             <value xsi:type="bpm.process.table:StringCell" value=""/>
@@ -464,6 +494,15 @@
           <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
             <value xsi:type="bpm.process.table:StringCell" value="CC"/>
           </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="0"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="0Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
         </decisions>
         <decisions id="pPK0SnDNSwsf3ssrPjXmexgrihORqMCl">
           <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
@@ -473,7 +512,7 @@
             <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
           </cells>
           <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
-            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+            <value xsi:type="bpm.process.table:StringCell" value="->Envoi"/>
           </cells>
           <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
             <value xsi:type="bpm.process.table:StringCell" value=""/>
@@ -485,6 +524,15 @@
           </cells>
           <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
             <value xsi:type="bpm.process.table:StringCell" value="Cci"/>
+          </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="0"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="0Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
           </cells>
         </decisions>
         <decisions id="mn4ja4YRlHJo0QdlAE3bYmxVHviRlWO0">
@@ -508,6 +556,15 @@
           <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
             <value xsi:type="bpm.process.table:StringCell" value="Aucun"/>
           </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="0"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="0Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
         </decisions>
         <decisions id="RZGSHUNnGbCS9vRhothJFUhpUHRTlHcG">
           <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
@@ -530,6 +587,15 @@
           <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
             <value xsi:type="bpm.process.table:StringCell" value="invalide"/>
           </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="0"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="0Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
         </decisions>
         <decisions id="sHo8sKeqNgpOXcRzyjuVDXpIJKO4inNI">
           <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
@@ -539,7 +605,7 @@
             <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
           </cells>
           <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
-            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+            <value xsi:type="bpm.process.table:StringCell" value="->Envoi"/>
           </cells>
           <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
             <value xsi:type="bpm.process.table:StringCell" value="Envoyer quand même"/>
@@ -552,6 +618,15 @@
           </cells>
           <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
             <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="0"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="0Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
           </cells>
         </decisions>
         <decisions id="Ry2cYggt7XDGbhKq4VIlUQBYgqMFuLw9">
@@ -576,6 +651,15 @@
           <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
             <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
           </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="0"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="0Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
         </decisions>
         <decisions id="WyTTY9nfUcZQtuwkexZp9qU1GRKTS72c">
           <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
@@ -588,7 +672,7 @@
             <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
           </cells>
           <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
-            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+            <value xsi:type="bpm.process.table:StringCell" value="->Envoi"/>
           </cells>
           <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
             <value xsi:type="bpm.process.table:StringCell" value=""/>
@@ -598,6 +682,232 @@
               <operations reference="KD0Hfg3iiZa7ycXl1D12nLdtsUZKXqvf"/>
             </value>
           </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="0"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="0Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+        </decisions>
+        <decisions id="jKCqQRWPrEN0JcYDWIWXQj2uCZ9ST5mJ">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Envoi"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Envoyé"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="CxBvOFxUl1VDA5zpQtIoKm7KdD1E0C6w"/>
+            </value>
+          </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="0"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="0Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+        </decisions>
+        <decisions id="aNmb5zjvdsmiTtPLVlkDAm58KMmWQy6k">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="10"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="25Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="PDF"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Envoi"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Envoyé"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="wqzVJ8rRuGa7wZ1R21RQTCqcolu8JUeI"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="q9YoF3oW5QxuVFrsLOba96UaFoa7ZKCR">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="11"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="25Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="PDF"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Ne pas envoyer"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="KFPy0QBUAROmwxmHszpRKAfutmWKScJG"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="hOxf69GQ6YC6YIfnePE7vnqP414uUX40">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="1"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="51Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="PDF"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Ne pas envoyer"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="od0AqN8DUET6OIBBtnBSOvBPwsyqWbV8"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="CWraIcMm7IrRTCl8vC47DlGemsF4n2yH">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="1"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="25Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="EXE"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Pièces jointes"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Ne pas envoyer"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="mrjRVpeshZBHXqICFllwwcKUIRG8UYP1"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="gNH1EfC8FLV4efoHI1JOPtPXndr9QzfD">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="1"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="25Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="PDF"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Envoi"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Envoyé"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="xl6tC55MAeQ0BXmgSGvWCdnhcogc9w63"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="OAXhFVqZtvbo0yKCxDPLWQ5PHCTEbJqU">
+          <cells key="YghLUq6MZ9l9yZJfCKSGhsNeNEbrxla4">
+            <value xsi:type="bpm.process.table:StringCell" value="Bonjour, j'envoie un mail afin de tester mon application"/>
+          </cells>
+          <cells key="gyZr2lJTeGPwVYBwhryuigAfc6HVRJ9f">
+            <value xsi:type="bpm.process.table:StringCell" value="Test envoi de mail"/>
+          </cells>
+          <cells key="F6RzZM2i43Kdyd5XaBeIAMUUVlsVr0qW">
+            <value xsi:type="bpm.process.table:StringCell" value="Valide"/>
+          </cells>
+          <cells key="ZhGvl2nrmn02WMuJ1bIt4PtIc244vqXq">
+            <value xsi:type="bpm.process.table:StringCell" value="1"/>
+          </cells>
+          <cells key="A8bFeKkDGOrH30IuD46R66nYPZM0qaIj">
+            <value xsi:type="bpm.process.table:StringCell" value="50Mo"/>
+          </cells>
+          <cells key="7sGl6mmOSWhnoO9cFY4KdcNlRGoyVCIT">
+            <value xsi:type="bpm.process.table:StringCell" value="PDF"/>
+          </cells>
+          <cells key="ah7dJ1svCFUg8ZLFuFVZzh0HZcRU4xUa">
+            <value xsi:type="bpm.process.table:StringCell" value="->Envoi"/>
+          </cells>
+          <cells key="Hs5wu1trpTzpk1uyhh8OlKt4Daj8nXke">
+            <value xsi:type="bpm.process.table:StringCell" value="Envoyé"/>
+          </cells>
+          <cells key="8A1tPnHqc6UqEoLkRO2kxpxCpCRFEXjs">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="ypPJ3GFTKAXTxmFMMbqB9Y8h4GxgHnFu"/>
+            </value>
+          </cells>
         </decisions>
       </table>
     </flowElements>
@@ -605,10 +915,47 @@
     <flowElements xsi:type="bpm.process:SequenceFlow" id="NJrT0GyJo6SZfTtzT7aDzzl9vJN6G8sW" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542" source="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
     <flowElements xsi:type="bpm.process:SequenceFlow" id="ZTHrAKfMRTYMUtVLUiOpJl5yNq55Eotf" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150" source="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
     <flowElements xsi:type="bpm.process:SequenceFlow" id="33Cla3fIegmlLsy2xg6hrgV86oE1pHPf" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903"/>
-    <flowElements xsi:type="bpm.process:EndPoint" id="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08" name="Enregistré en brouillon" incomings="l5413lRXng6boW65WdqsTBsv4moHHjEt Ja1KKAMk6KTPMLal3Q3puVlHhqTbs26n 10s62ObSe0Zg8vyU0FD5R7626LOvFMOE"/>
+    <flowElements xsi:type="bpm.process:EndPoint" id="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08" name="Enregistré en brouillon" incomings="l5413lRXng6boW65WdqsTBsv4moHHjEt Ja1KKAMk6KTPMLal3Q3puVlHhqTbs26n 10s62ObSe0Zg8vyU0FD5R7626LOvFMOE 981JUZjiJ5LX1DhiDUHvwI59Gdx6zfo8"/>
     <flowElements xsi:type="bpm.process:SequenceFlow" id="l5413lRXng6boW65WdqsTBsv4moHHjEt" name="" target="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150"/>
     <flowElements xsi:type="bpm.process:ChoicePoint" id="0gw4Bl5oDWtbzNe90ufVwubTy42hwbOi" name="Plateforme Utilisée ?" incomings="MK8OmycnnB4C7LtvCcpH7CgMLoX3emOS" outgoings="GrTBnMAyjK3ChiW6d0bdsypLXMiYUH0t f9vI6gRdSggnRfhySunS1OxjvlB7eHs6">
-      <table/>
+      <table>
+        <columns xsi:type="bpm.process.table:DataColumn" id="gV4RBymBeZYG3odjTqxdAzCZOlsmtChW" type="SET" dataName="Plateforme_utilisé"/>
+        <columns xsi:type="bpm.process.table:OperationColumn" id="a6VtgpJjPmHLlzGBQycWxk1AuobbAa0O"/>
+        <columns xsi:type="bpm.process.table:OutcomeColumn" id="xYD38jtxd1pnJTShEDqWwohawlJz4yBl"/>
+        <columns xsi:type="bpm.process.table:CriterionColumn" id="zPqH76487bzAoXHNOO3QLPqtCZeLoWsi" criterionType="#objective"/>
+        <decisions id="1vO4c7WNMEjLFlGv7HCidrckJTzzSvX8">
+          <cells key="gV4RBymBeZYG3odjTqxdAzCZOlsmtChW">
+            <value xsi:type="bpm.process.table:StringCell" value="Windows 10"/>
+          </cells>
+          <cells key="a6VtgpJjPmHLlzGBQycWxk1AuobbAa0O">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+            </value>
+          </cells>
+          <cells key="xYD38jtxd1pnJTShEDqWwohawlJz4yBl">
+            <value xsi:type="bpm.process.table:StringCell" value="->Sujet"/>
+          </cells>
+          <cells key="zPqH76487bzAoXHNOO3QLPqtCZeLoWsi">
+            <value xsi:type="bpm.process.table:StringCell" value="Plateforme ok"/>
+          </cells>
+        </decisions>
+        <decisions id="uEfQH83wQRYpEG44qd0v0W0e0hqG4A48">
+          <cells key="gV4RBymBeZYG3odjTqxdAzCZOlsmtChW">
+            <value xsi:type="bpm.process.table:StringCell" value="mac"/>
+          </cells>
+          <cells key="xYD38jtxd1pnJTShEDqWwohawlJz4yBl">
+            <value xsi:type="bpm.process.table:StringCell" value="->Renvoie sur une page d'erreur"/>
+          </cells>
+          <cells key="zPqH76487bzAoXHNOO3QLPqtCZeLoWsi">
+            <value xsi:type="bpm.process.table:StringCell" value="Plateforme ko"/>
+          </cells>
+          <cells key="a6VtgpJjPmHLlzGBQycWxk1AuobbAa0O">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="oNuKI95JpycxT1LVvjeOqSJtEnbeh5gC"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
     </flowElements>
     <flowElements xsi:type="bpm.process:SequenceFlow" id="MK8OmycnnB4C7LtvCcpH7CgMLoX3emOS" name="" target="0gw4Bl5oDWtbzNe90ufVwubTy42hwbOi" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--1704595256--1420635718"/>
     <flowElements xsi:type="bpm.process:SequenceFlow" id="GrTBnMAyjK3ChiW6d0bdsypLXMiYUH0t" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903" source="0gw4Bl5oDWtbzNe90ufVwubTy42hwbOi"/>
@@ -616,15 +963,199 @@
     <flowElements xsi:type="bpm.process:SequenceFlow" id="f9vI6gRdSggnRfhySunS1OxjvlB7eHs6" name="" target="PyJOrVtBKBBoTAhWPRi6sZc89EdmeCsD" source="0gw4Bl5oDWtbzNe90ufVwubTy42hwbOi"/>
     <flowElements xsi:type="bpm.process:SequenceFlow" id="Ja1KKAMk6KTPMLal3Q3puVlHhqTbs26n" name="" target="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-80242903"/>
     <flowElements xsi:type="bpm.process:SequenceFlow" id="10s62ObSe0Zg8vyU0FD5R7626LOvFMOE" name="" target="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1097944542"/>
-    <flowElements xsi:type="bpm.process:SequenceFlow" id="qHRW9qZ4ajN95fJ2cgVkbzizXOVZqgtD" name="" target="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150"/>
-    <flowElements xsi:type="bpm.process:Task" id="OB2wRscMveE9UkuSq5ulMk9BE7zXD1vA" name="Pièces jointes" incomings="NVMROONNuwGMuBC6eBH2FO0eC0gX8qAP 9SJqxbwhdll0q7Yq2nsuxLDIJ7pxS6lS" outgoings="3FSiNAvMXbegcZOZ0BsfBh6m8xvf8UU9"/>
-    <flowElements xsi:type="bpm.process:SequenceFlow" id="NVMROONNuwGMuBC6eBH2FO0eC0gX8qAP" name="" target="OB2wRscMveE9UkuSq5ulMk9BE7zXD1vA" source="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
-    <flowElements xsi:type="bpm.process:SequenceFlow" id="3FSiNAvMXbegcZOZ0BsfBh6m8xvf8UU9" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903" source="OB2wRscMveE9UkuSq5ulMk9BE7zXD1vA"/>
-    <flowElements xsi:type="bpm.process:ChoicePoint" id="ZZVFXCEyKq7tukn70hgUpnbCXNtp66Xz" name="Pièces jointes valides ?" incomings="0ywyCqFkXpjWDAvJsmhH3XF0bBrAWcBD" outgoings="wp57uC0n69Ih6Z3k6KY2jvl63YM6JTHW 9SJqxbwhdll0q7Yq2nsuxLDIJ7pxS6lS"/>
-    <flowElements xsi:type="bpm.process:SequenceFlow" id="0ywyCqFkXpjWDAvJsmhH3XF0bBrAWcBD" name="" target="ZZVFXCEyKq7tukn70hgUpnbCXNtp66Xz" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903"/>
-    <flowElements xsi:type="bpm.process:SequenceFlow" id="wp57uC0n69Ih6Z3k6KY2jvl63YM6JTHW" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-1622042223-1259627163" source="ZZVFXCEyKq7tukn70hgUpnbCXNtp66Xz"/>
-    <flowElements xsi:type="bpm.process:SequenceFlow" id="9SJqxbwhdll0q7Yq2nsuxLDIJ7pxS6lS" name="" target="OB2wRscMveE9UkuSq5ulMk9BE7zXD1vA" source="ZZVFXCEyKq7tukn70hgUpnbCXNtp66Xz"/>
-    <diagram xsi:type="bpm.process.diagram:WorkflowDiagram" visible="true" gridUnit="-1" diagramTypeId="com.smartesting.bpm.process.diagram.metamodel.WorkflowDiagram" name="Workflow" pictogramLinks="//@testElements.0/@diagram/@children.0/@link //@testElements.0/@diagram/@children.2/@link //@testElements.0/@diagram/@children.3/@link //@testElements.0/@diagram/@children.4/@link //@testElements.0/@diagram/@children.5/@link //@testElements.0/@diagram/@children.6/@link //@testElements.0/@diagram/@connections.0/@link //@testElements.0/@diagram/@connections.1/@link //@testElements.0/@diagram/@children.8/@link //@testElements.0/@diagram/@connections.2/@link //@testElements.0/@diagram/@connections.3/@link //@testElements.0/@diagram/@connections.4/@link //@testElements.0/@diagram/@connections.5/@link //@testElements.0/@diagram/@children.9/@link //@testElements.0/@diagram/@connections.6/@link //@testElements.0/@diagram/@children.11/@link //@testElements.0/@diagram/@connections.7/@link //@testElements.0/@diagram/@connections.8/@link //@testElements.0/@diagram/@children.13/@link //@testElements.0/@diagram/@connections.9/@link //@testElements.0/@diagram/@connections.10/@link //@testElements.0/@diagram/@connections.11/@link //@testElements.0/@diagram/@connections.12/@link //@testElements.0/@diagram/@children.15/@link //@testElements.0/@diagram/@connections.13/@link //@testElements.0/@diagram/@connections.14/@link //@testElements.0/@diagram/@children.16/@link //@testElements.0/@diagram/@connections.15/@link //@testElements.0/@diagram/@connections.16/@link //@testElements.0/@diagram/@connections.17/@link" version="0.14.0">
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="5eI06iTF4jMEkClv2RiYTe5PfteG5SlV" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903" source="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="reaWMlenUhhFKA9FSsZ7UnokDeCHe0tf" name="" target="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-1622042223-1259627163" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903"/>
+    <flowElements xsi:type="bpm.process:Task" id="SDsVPwsaWOiqw7Ok5huxOm2aAl6OFiS0" name="Pièces jointes" incomings="frmEMkWBGzTt4TPIJDlgXE8q3a1DUE8b K8cmfYolzlQN3obgNCn48TYzpSFGvI7D" outgoings="JHf8iMeeQ6fqKkSktd9c9AoxkOQg6hUU 981JUZjiJ5LX1DhiDUHvwI59Gdx6zfo8">
+      <table>
+        <columns xsi:type="bpm.process.table:DataColumn" id="weDeiy1v7Kz0M6f7BuRMtTydjTN4TVI3" type="SET" dataName="Nombre_de_PJs"/>
+        <columns xsi:type="bpm.process.table:DataColumn" id="Cizt1ENZAM6FpkiKMAhoAYEv3uR16X5u" type="SET" dataName="Taille_PJs"/>
+        <columns xsi:type="bpm.process.table:DataColumn" id="AKT328PpOTbivmfFdPYGHzCY6yFvodbR" type="SET" dataName="Format_PJs"/>
+        <columns xsi:type="bpm.process.table:OperationColumn" id="92rhjrOu4F3AwE8mo9I2Etr9Y2Z9LWwy"/>
+        <columns xsi:type="bpm.process.table:OutcomeColumn" id="STWgZhpLzgTAmdGS9tSko0qI99xkOAuZ"/>
+        <columns xsi:type="bpm.process.table:CriterionColumn" id="dst7wIlVrxrLPXsoI48oxDuBfVDHrV7n" criterionType="#objective"/>
+        <decisions id="u9GtaUt9y2aoQeszOGUyCc4P1dNKEkOv">
+          <cells key="92rhjrOu4F3AwE8mo9I2Etr9Y2Z9LWwy">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+            </value>
+          </cells>
+          <cells key="weDeiy1v7Kz0M6f7BuRMtTydjTN4TVI3">
+            <value xsi:type="bpm.process.table:StringCell" value="0"/>
+          </cells>
+          <cells key="Cizt1ENZAM6FpkiKMAhoAYEv3uR16X5u">
+            <value xsi:type="bpm.process.table:StringCell" value="0Mo"/>
+          </cells>
+          <cells key="AKT328PpOTbivmfFdPYGHzCY6yFvodbR">
+            <value xsi:type="bpm.process.table:StringCell" value="{vide}"/>
+          </cells>
+          <cells key="STWgZhpLzgTAmdGS9tSko0qI99xkOAuZ">
+            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+          </cells>
+          <cells key="dst7wIlVrxrLPXsoI48oxDuBfVDHrV7n">
+            <value xsi:type="bpm.process.table:StringCell" value="Aucune PJs"/>
+          </cells>
+        </decisions>
+        <decisions id="vIDX76RAabEzxoEQxxZ037w4xAmQMTDD">
+          <cells key="weDeiy1v7Kz0M6f7BuRMtTydjTN4TVI3">
+            <value xsi:type="bpm.process.table:StringCell" value="10"/>
+          </cells>
+          <cells key="Cizt1ENZAM6FpkiKMAhoAYEv3uR16X5u">
+            <value xsi:type="bpm.process.table:StringCell" value="25Mo"/>
+          </cells>
+          <cells key="AKT328PpOTbivmfFdPYGHzCY6yFvodbR">
+            <value xsi:type="bpm.process.table:StringCell" value="PDF"/>
+          </cells>
+          <cells key="STWgZhpLzgTAmdGS9tSko0qI99xkOAuZ">
+            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+          </cells>
+          <cells key="dst7wIlVrxrLPXsoI48oxDuBfVDHrV7n">
+            <value xsi:type="bpm.process.table:StringCell" value="Limite du nombre de PJs"/>
+          </cells>
+          <cells key="92rhjrOu4F3AwE8mo9I2Etr9Y2Z9LWwy">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="VrfMgUjf6KOfqHLdritqanfUGq5XEVcb">
+          <cells key="weDeiy1v7Kz0M6f7BuRMtTydjTN4TVI3">
+            <value xsi:type="bpm.process.table:StringCell" value="11"/>
+          </cells>
+          <cells key="Cizt1ENZAM6FpkiKMAhoAYEv3uR16X5u">
+            <value xsi:type="bpm.process.table:StringCell" value="25Mo"/>
+          </cells>
+          <cells key="AKT328PpOTbivmfFdPYGHzCY6yFvodbR">
+            <value xsi:type="bpm.process.table:StringCell" value="PDF"/>
+          </cells>
+          <cells key="STWgZhpLzgTAmdGS9tSko0qI99xkOAuZ">
+            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+          </cells>
+          <cells key="dst7wIlVrxrLPXsoI48oxDuBfVDHrV7n">
+            <value xsi:type="bpm.process.table:StringCell" value="Nombre de PJ > limite"/>
+          </cells>
+          <cells key="92rhjrOu4F3AwE8mo9I2Etr9Y2Z9LWwy">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="wht4acXuMZT8ZcqhKYQXwXcu2fYBbStQ">
+          <cells key="weDeiy1v7Kz0M6f7BuRMtTydjTN4TVI3">
+            <value xsi:type="bpm.process.table:StringCell" value="1"/>
+          </cells>
+          <cells key="Cizt1ENZAM6FpkiKMAhoAYEv3uR16X5u">
+            <value xsi:type="bpm.process.table:StringCell" value="51Mo"/>
+          </cells>
+          <cells key="AKT328PpOTbivmfFdPYGHzCY6yFvodbR">
+            <value xsi:type="bpm.process.table:StringCell" value="PDF"/>
+          </cells>
+          <cells key="STWgZhpLzgTAmdGS9tSko0qI99xkOAuZ">
+            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+          </cells>
+          <cells key="dst7wIlVrxrLPXsoI48oxDuBfVDHrV7n">
+            <value xsi:type="bpm.process.table:StringCell" value="Taille PJs > limite"/>
+          </cells>
+          <cells key="92rhjrOu4F3AwE8mo9I2Etr9Y2Z9LWwy">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="juVKgBWPu8BjAec499418RzrUyFip0o8">
+          <cells key="weDeiy1v7Kz0M6f7BuRMtTydjTN4TVI3">
+            <value xsi:type="bpm.process.table:StringCell" value="1"/>
+          </cells>
+          <cells key="Cizt1ENZAM6FpkiKMAhoAYEv3uR16X5u">
+            <value xsi:type="bpm.process.table:StringCell" value="25Mo"/>
+          </cells>
+          <cells key="AKT328PpOTbivmfFdPYGHzCY6yFvodbR">
+            <value xsi:type="bpm.process.table:StringCell" value="EXE"/>
+          </cells>
+          <cells key="STWgZhpLzgTAmdGS9tSko0qI99xkOAuZ">
+            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+          </cells>
+          <cells key="dst7wIlVrxrLPXsoI48oxDuBfVDHrV7n">
+            <value xsi:type="bpm.process.table:StringCell" value="Envoi d'un éxecutable"/>
+          </cells>
+          <cells key="92rhjrOu4F3AwE8mo9I2Etr9Y2Z9LWwy">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="3W2S0kGiHR4ItkRKXGR6EKtwEcqMFG0h">
+          <cells key="weDeiy1v7Kz0M6f7BuRMtTydjTN4TVI3">
+            <value xsi:type="bpm.process.table:StringCell" value="1"/>
+          </cells>
+          <cells key="Cizt1ENZAM6FpkiKMAhoAYEv3uR16X5u">
+            <value xsi:type="bpm.process.table:StringCell" value="25Mo"/>
+          </cells>
+          <cells key="AKT328PpOTbivmfFdPYGHzCY6yFvodbR">
+            <value xsi:type="bpm.process.table:StringCell" value="PDF"/>
+          </cells>
+          <cells key="STWgZhpLzgTAmdGS9tSko0qI99xkOAuZ">
+            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+          </cells>
+          <cells key="dst7wIlVrxrLPXsoI48oxDuBfVDHrV7n">
+            <value xsi:type="bpm.process.table:StringCell" value="PJ ok"/>
+          </cells>
+          <cells key="92rhjrOu4F3AwE8mo9I2Etr9Y2Z9LWwy">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="mnq5SQGWBihbc2ospnPzfas0OvKrszeU">
+          <cells key="weDeiy1v7Kz0M6f7BuRMtTydjTN4TVI3">
+            <value xsi:type="bpm.process.table:StringCell" value="1"/>
+          </cells>
+          <cells key="Cizt1ENZAM6FpkiKMAhoAYEv3uR16X5u">
+            <value xsi:type="bpm.process.table:StringCell" value="25Mo"/>
+          </cells>
+          <cells key="AKT328PpOTbivmfFdPYGHzCY6yFvodbR">
+            <value xsi:type="bpm.process.table:StringCell" value="PDF"/>
+          </cells>
+          <cells key="STWgZhpLzgTAmdGS9tSko0qI99xkOAuZ">
+            <value xsi:type="bpm.process.table:StringCell" value="->Enregistré en brouillon"/>
+          </cells>
+          <cells key="dst7wIlVrxrLPXsoI48oxDuBfVDHrV7n">
+            <value xsi:type="bpm.process.table:StringCell" value="Brouillon"/>
+          </cells>
+          <cells key="92rhjrOu4F3AwE8mo9I2Etr9Y2Z9LWwy">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="EUYxPonKSaGQH8Edip1Xl7vNik3VfpZV">
+          <cells key="weDeiy1v7Kz0M6f7BuRMtTydjTN4TVI3">
+            <value xsi:type="bpm.process.table:StringCell" value="1"/>
+          </cells>
+          <cells key="Cizt1ENZAM6FpkiKMAhoAYEv3uR16X5u">
+            <value xsi:type="bpm.process.table:StringCell" value="50Mo"/>
+          </cells>
+          <cells key="AKT328PpOTbivmfFdPYGHzCY6yFvodbR">
+            <value xsi:type="bpm.process.table:StringCell" value="PDF"/>
+          </cells>
+          <cells key="STWgZhpLzgTAmdGS9tSko0qI99xkOAuZ">
+            <value xsi:type="bpm.process.table:StringCell" value="->Vérification"/>
+          </cells>
+          <cells key="dst7wIlVrxrLPXsoI48oxDuBfVDHrV7n">
+            <value xsi:type="bpm.process.table:StringCell" value="Limite de la taille des PJs"/>
+          </cells>
+          <cells key="92rhjrOu4F3AwE8mo9I2Etr9Y2Z9LWwy">
+            <value xsi:type="bpm.process.table:OperationCell">
+              <operations reference="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="frmEMkWBGzTt4TPIJDlgXE8q3a1DUE8b" name="" target="SDsVPwsaWOiqw7Ok5huxOm2aAl6OFiS0" source="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="JHf8iMeeQ6fqKkSktd9c9AoxkOQg6hUU" name="" target="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x" source="SDsVPwsaWOiqw7Ok5huxOm2aAl6OFiS0"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="K8cmfYolzlQN3obgNCn48TYzpSFGvI7D" name="" target="SDsVPwsaWOiqw7Ok5huxOm2aAl6OFiS0" source="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
+    <flowElements xsi:type="bpm.process:SequenceFlow" id="981JUZjiJ5LX1DhiDUHvwI59Gdx6zfo8" name="" target="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08" source="SDsVPwsaWOiqw7Ok5huxOm2aAl6OFiS0"/>
+    <diagram xsi:type="bpm.process.diagram:WorkflowDiagram" visible="true" gridUnit="-1" diagramTypeId="com.smartesting.bpm.process.diagram.metamodel.WorkflowDiagram" name="Workflow" pictogramLinks="//@testElements.0/@diagram/@children.0/@link //@testElements.0/@diagram/@children.2/@link //@testElements.0/@diagram/@children.3/@link //@testElements.0/@diagram/@children.4/@link //@testElements.0/@diagram/@children.5/@link //@testElements.0/@diagram/@children.6/@link //@testElements.0/@diagram/@connections.0/@link //@testElements.0/@diagram/@connections.1/@link //@testElements.0/@diagram/@children.8/@link //@testElements.0/@diagram/@connections.2/@link //@testElements.0/@diagram/@connections.3/@link //@testElements.0/@diagram/@connections.4/@link //@testElements.0/@diagram/@connections.5/@link //@testElements.0/@diagram/@children.9/@link //@testElements.0/@diagram/@connections.6/@link //@testElements.0/@diagram/@children.11/@link //@testElements.0/@diagram/@connections.7/@link //@testElements.0/@diagram/@connections.8/@link //@testElements.0/@diagram/@children.13/@link //@testElements.0/@diagram/@connections.9/@link //@testElements.0/@diagram/@connections.10/@link //@testElements.0/@diagram/@connections.11/@link //@testElements.0/@diagram/@connections.12/@link //@testElements.0/@diagram/@connections.13/@link //@testElements.0/@diagram/@children.15/@link //@testElements.0/@diagram/@connections.14/@link //@testElements.0/@diagram/@connections.15/@link //@testElements.0/@diagram/@connections.16/@link //@testElements.0/@diagram/@connections.17/@link" version="0.14.0">
       <graphicsAlgorithm xsi:type="al:Rectangle" background="//@testElements.0/@diagram/@colors.1" foreground="//@testElements.0/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
       <children xsi:type="bpm.process.diagram:StartPointShape" visible="true" active="true" flowNode="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP--1704595256--1420635718" labelShape="//@testElements.0/@diagram/@children.1">
         <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.2" lineWidth="2" transparency="0.0" width="31" height="31" x="311" y="10" style="//@testElements.0/@diagram/@styles.0"/>
@@ -656,15 +1187,15 @@
       <children xsi:type="bpm.process.diagram:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150">
         <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="264" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
         <link businessObjects="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-1712843150"/>
-        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.6 //@testElements.0/@diagram/@connections.12" incomingConnections="//@testElements.0/@diagram/@connections.1 //@testElements.0/@diagram/@connections.4"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.6 //@testElements.0/@diagram/@connections.14" incomingConnections="//@testElements.0/@diagram/@connections.1 //@testElements.0/@diagram/@connections.4"/>
         <children xsi:type="pi:ContainerShape" visible="true">
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Corps mail"/>
         </children>
       </children>
       <children xsi:type="bpm.process.diagram:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.5/@children.0/@graphicsAlgorithm" flowNode="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="452" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="493" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
         <link businessObjects="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-629668735-67116903"/>
-        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.5 //@testElements.0/@diagram/@connections.15" incomingConnections="//@testElements.0/@diagram/@connections.14"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.5 //@testElements.0/@diagram/@connections.13" incomingConnections="//@testElements.0/@diagram/@connections.12"/>
         <children xsi:type="pi:ContainerShape" visible="true">
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Envoi"/>
         </children>
@@ -672,7 +1203,7 @@
       <children xsi:type="bpm.process.diagram:EndPointShape" visible="true" active="true" flowNode="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-1622042223-1259627163" labelShape="//@testElements.0/@diagram/@children.7">
         <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.8" lineWidth="4" transparency="0.0" width="31" height="31" x="312" y="563" style="//@testElements.0/@diagram/@styles.5"/>
         <link businessObjects="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP-1622042223-1259627163"/>
-        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.16"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.13"/>
       </children>
       <children xsi:type="bpm.process.diagram:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.7/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.6">
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="32" x="327" y="584"/>
@@ -681,9 +1212,9 @@
         </children>
       </children>
       <children xsi:type="bpm.process.diagram:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.8/@children.0/@graphicsAlgorithm" flowNode="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="330" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="405" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
         <link businessObjects="KHLrKVjVoBnsqsOeLD40M9rJtzbyLc4x"/>
-        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.2 //@testElements.0/@diagram/@connections.3 //@testElements.0/@diagram/@connections.4 //@testElements.0/@diagram/@connections.13" incomingConnections="//@testElements.0/@diagram/@connections.12"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.2 //@testElements.0/@diagram/@connections.3 //@testElements.0/@diagram/@connections.4 //@testElements.0/@diagram/@connections.12 //@testElements.0/@diagram/@connections.16" incomingConnections="//@testElements.0/@diagram/@connections.15"/>
         <children xsi:type="pi:ContainerShape" visible="true">
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérification"/>
         </children>
@@ -691,7 +1222,7 @@
       <children xsi:type="bpm.process.diagram:EndPointShape" visible="true" active="true" flowNode="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08" labelShape="//@testElements.0/@diagram/@children.10">
         <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.8" lineWidth="4" transparency="0.0" width="31" height="31" x="494" y="274" style="//@testElements.0/@diagram/@styles.5"/>
         <link businessObjects="rWpcbHoMlQvaij6dyVVhc4zyf1uyqr08"/>
-        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.6 //@testElements.0/@diagram/@connections.10 //@testElements.0/@diagram/@connections.11"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.6 //@testElements.0/@diagram/@connections.10 //@testElements.0/@diagram/@connections.11 //@testElements.0/@diagram/@connections.17"/>
       </children>
       <children xsi:type="bpm.process.diagram:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.10/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.9">
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="32" x="505" y="299"/>
@@ -739,41 +1270,12 @@
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="100" height="32" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Renvoie sur une&#xD;&#xA;page d'erreur"/>
         </children>
       </children>
-      <children xsi:type="bpm.process.diagram:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.15/@children.0/@graphicsAlgorithm" flowNode="OB2wRscMveE9UkuSq5ulMk9BE7zXD1vA">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="391" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
-        <link businessObjects="OB2wRscMveE9UkuSq5ulMk9BE7zXD1vA"/>
-        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.14" incomingConnections="//@testElements.0/@diagram/@connections.13 //@testElements.0/@diagram/@connections.17"/>
+      <children xsi:type="bpm.process.diagram:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.15/@children.0/@graphicsAlgorithm" flowNode="SDsVPwsaWOiqw7Ok5huxOm2aAl6OFiS0">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" transparency="0.0" width="101" height="51" x="277" y="333" style="//@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="SDsVPwsaWOiqw7Ok5huxOm2aAl6OFiS0"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.15 //@testElements.0/@diagram/@connections.17" incomingConnections="//@testElements.0/@diagram/@connections.14 //@testElements.0/@diagram/@connections.16"/>
         <children xsi:type="pi:ContainerShape" visible="true">
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Pièces jointes"/>
-        </children>
-      </children>
-      <children xsi:type="bpm.process.diagram:ChoicePointShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.16/@children.0/@graphicsAlgorithm //@testElements.0/@diagram/@children.16/@children.1/@graphicsAlgorithm" flowNode="ZZVFXCEyKq7tukn70hgUpnbCXNtp66Xz" labelShape="//@testElements.0/@diagram/@children.17">
-        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="307" y="514" style="//@testElements.0/@diagram/@styles.3">
-          <points x="20"/>
-          <points x="40" y="20"/>
-          <points x="20" y="40"/>
-          <points y="20"/>
-          <points x="20"/>
-        </graphicsAlgorithm>
-        <link businessObjects="ZZVFXCEyKq7tukn70hgUpnbCXNtp66Xz"/>
-        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.16 //@testElements.0/@diagram/@connections.17" incomingConnections="//@testElements.0/@diagram/@connections.15"/>
-        <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="2">
-            <points x="12" y="12"/>
-            <points x="28" y="28"/>
-          </graphicsAlgorithm>
-        </children>
-        <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="2">
-            <points x="12" y="28"/>
-            <points x="28" y="12"/>
-          </graphicsAlgorithm>
-        </children>
-      </children>
-      <children xsi:type="bpm.process.diagram:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.17/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.16">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="32" x="347" y="519"/>
-        <children xsi:type="pi:ContainerShape" visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="100" height="32" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Pièces jointes&#xD;&#xA;valides ?"/>
         </children>
       </children>
       <styles id="shape-bg-green-id">
@@ -1024,7 +1526,7 @@
             <points x="-6" y="-3"/>
           </graphicsAlgorithm>
         </connectionDecorators>
-        <bendpoints x="197" y="355"/>
+        <bendpoints x="197" y="430"/>
         <bendpoints x="197" y="159"/>
       </connections>
       <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.3/@anchors.0" sequenceFlow="NJrT0GyJo6SZfTtzT7aDzzl9vJN6G8sW">
@@ -1037,7 +1539,7 @@
             <points x="-6" y="-3"/>
           </graphicsAlgorithm>
         </connectionDecorators>
-        <bendpoints x="214" y="355"/>
+        <bendpoints x="214" y="430"/>
         <bendpoints x="214" y="224"/>
       </connections>
       <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.4/@anchors.0" sequenceFlow="ZTHrAKfMRTYMUtVLUiOpJl5yNq55Eotf">
@@ -1050,7 +1552,7 @@
             <points x="-6" y="-3"/>
           </graphicsAlgorithm>
         </connectionDecorators>
-        <bendpoints x="230" y="356"/>
+        <bendpoints x="230" y="431"/>
         <bendpoints x="230" y="290"/>
       </connections>
       <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.5/@anchors.0" end="//@testElements.0/@diagram/@children.2/@anchors.0" sequenceFlow="33Cla3fIegmlLsy2xg6hrgV86oE1pHPf">
@@ -1063,7 +1565,7 @@
             <points x="-6" y="-3"/>
           </graphicsAlgorithm>
         </connectionDecorators>
-        <bendpoints x="113" y="477"/>
+        <bendpoints x="113" y="518"/>
         <bendpoints x="113" y="159"/>
       </connections>
       <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.4/@anchors.0" end="//@testElements.0/@diagram/@children.9/@anchors.0" sequenceFlow="l5413lRXng6boW65WdqsTBsv4moHHjEt">
@@ -1134,9 +1636,9 @@
         </connectionDecorators>
         <bendpoints x="509" y="224"/>
       </connections>
-      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.4/@anchors.0" end="//@testElements.0/@diagram/@children.8/@anchors.0" sequenceFlow="qHRW9qZ4ajN95fJ2cgVkbzizXOVZqgtD">
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.5/@anchors.0" sequenceFlow="5eI06iTF4jMEkClv2RiYTe5PfteG5SlV">
         <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-        <link businessObjects="qHRW9qZ4ajN95fJ2cgVkbzizXOVZqgtD"/>
+        <link businessObjects="5eI06iTF4jMEkClv2RiYTe5PfteG5SlV"/>
         <connectionDecorators visible="true" locationRelative="true" location="1.0">
           <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
             <points x="-6" y="3"/>
@@ -1145,9 +1647,9 @@
           </graphicsAlgorithm>
         </connectionDecorators>
       </connections>
-      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.15/@anchors.0" sequenceFlow="NVMROONNuwGMuBC6eBH2FO0eC0gX8qAP">
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.5/@anchors.0" end="//@testElements.0/@diagram/@children.6/@anchors.0" sequenceFlow="reaWMlenUhhFKA9FSsZ7UnokDeCHe0tf">
         <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-        <link businessObjects="NVMROONNuwGMuBC6eBH2FO0eC0gX8qAP"/>
+        <link businessObjects="reaWMlenUhhFKA9FSsZ7UnokDeCHe0tf"/>
         <connectionDecorators visible="true" locationRelative="true" location="1.0">
           <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
             <points x="-6" y="3"/>
@@ -1156,9 +1658,9 @@
           </graphicsAlgorithm>
         </connectionDecorators>
       </connections>
-      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.15/@anchors.0" end="//@testElements.0/@diagram/@children.5/@anchors.0" sequenceFlow="3FSiNAvMXbegcZOZ0BsfBh6m8xvf8UU9">
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.4/@anchors.0" end="//@testElements.0/@diagram/@children.15/@anchors.0" sequenceFlow="frmEMkWBGzTt4TPIJDlgXE8q3a1DUE8b">
         <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-        <link businessObjects="3FSiNAvMXbegcZOZ0BsfBh6m8xvf8UU9"/>
+        <link businessObjects="frmEMkWBGzTt4TPIJDlgXE8q3a1DUE8b"/>
         <connectionDecorators visible="true" locationRelative="true" location="1.0">
           <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
             <points x="-6" y="3"/>
@@ -1167,9 +1669,9 @@
           </graphicsAlgorithm>
         </connectionDecorators>
       </connections>
-      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.5/@anchors.0" end="//@testElements.0/@diagram/@children.16/@anchors.0" sequenceFlow="0ywyCqFkXpjWDAvJsmhH3XF0bBrAWcBD">
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.15/@anchors.0" end="//@testElements.0/@diagram/@children.8/@anchors.0" sequenceFlow="JHf8iMeeQ6fqKkSktd9c9AoxkOQg6hUU">
         <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-        <link businessObjects="0ywyCqFkXpjWDAvJsmhH3XF0bBrAWcBD"/>
+        <link businessObjects="JHf8iMeeQ6fqKkSktd9c9AoxkOQg6hUU"/>
         <connectionDecorators visible="true" locationRelative="true" location="1.0">
           <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
             <points x="-6" y="3"/>
@@ -1178,9 +1680,9 @@
           </graphicsAlgorithm>
         </connectionDecorators>
       </connections>
-      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.16/@anchors.0" end="//@testElements.0/@diagram/@children.6/@anchors.0" sequenceFlow="wp57uC0n69Ih6Z3k6KY2jvl63YM6JTHW">
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.15/@anchors.0" sequenceFlow="K8cmfYolzlQN3obgNCn48TYzpSFGvI7D">
         <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-        <link businessObjects="wp57uC0n69Ih6Z3k6KY2jvl63YM6JTHW"/>
+        <link businessObjects="K8cmfYolzlQN3obgNCn48TYzpSFGvI7D"/>
         <connectionDecorators visible="true" locationRelative="true" location="1.0">
           <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
             <points x="-6" y="3"/>
@@ -1188,10 +1690,12 @@
             <points x="-6" y="-3"/>
           </graphicsAlgorithm>
         </connectionDecorators>
+        <bendpoints x="246" y="429"/>
+        <bendpoints x="246" y="359"/>
       </connections>
-      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.16/@anchors.0" end="//@testElements.0/@diagram/@children.15/@anchors.0" sequenceFlow="9SJqxbwhdll0q7Yq2nsuxLDIJ7pxS6lS">
+      <connections xsi:type="bpm.process.diagram:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.15/@anchors.0" end="//@testElements.0/@diagram/@children.9/@anchors.0" sequenceFlow="981JUZjiJ5LX1DhiDUHvwI59Gdx6zfo8">
         <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-        <link businessObjects="9SJqxbwhdll0q7Yq2nsuxLDIJ7pxS6lS"/>
+        <link businessObjects="981JUZjiJ5LX1DhiDUHvwI59Gdx6zfo8"/>
         <connectionDecorators visible="true" locationRelative="true" location="1.0">
           <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
             <points x="-6" y="3"/>
@@ -1199,8 +1703,7 @@
             <points x="-6" y="-3"/>
           </graphicsAlgorithm>
         </connectionDecorators>
-        <bendpoints x="236" y="534"/>
-        <bendpoints x="236" y="417"/>
+        <bendpoints x="509" y="358"/>
       </connections>
       <colors red="227" green="238" blue="249"/>
       <colors red="255" green="255" blue="255"/>
@@ -1672,477 +2175,1373 @@
       </expectedResult>
     </highLevelStep>
   </testElements>
-  <testElements xsi:type="bpm.process:WorkflowScenario" id="5uIvc1X3ZLwuyS8MD19GZhA5uqD2bUKO" name="Que Cc-Echec envoi-Que Cci-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="pJ97KGUUGw9EFaehaBsjH40CU0bZmXY2" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="aMJLI9IAePCjNutCDQwiAs4zLKZbJZnf" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
-      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
-        <value definition="latavernedutesteur@outlook.fr"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="3E0KEWtmoPmF7cE7mpxToV25vVHRC9Cu" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="cYRmHEZcyo11lughlEt0VCZIWVpuoiXZ" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
-    <testActions id="K8V0NfiCbtSTijw3VxkYv0oXrJzezqti" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="CK8kuiOBFvnUIZ8JA3iuxhRaArGyWfqL" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="wJiIMLfQCqjMjrRZxeeKM9hYBgnl30B5" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
-      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
-        <value definition="latavernedutesteur@outlook.fr"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="RXPyMh060EhVoX8xscY5gMf0t9RQl9J5" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="aVSuMhD4aIyPiOWfxZU8chO8uXi3HNDt" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
-    <testActions id="4Y8TLESCcR4Vo3tenvMCggKvtYwMY5pR" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="mSgr46bYW6YEVjAeIlp8umkadw40nGUW" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="nUgyLdeyGfQZYAvUQn9K9vfwne6TtdzY" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
-      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
-        <value definition="marc.hagechahine@linkedin.fr"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="XCZyeVBdytRAvgp1jdvZacnqMMCDjOGb" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="cvoXnwuOuxt6S2nNTPyu65LwGS6DXoV1" operation="AZcnqF5Dznt0qajuoG4WGDDUZBib6NT4"/>
-    <testActions id="ehlneh4NXRK31cyQCDOD2A6uqZns3D0P" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="8GuuLfPNm2AaJMshN2U1Zk0stsg3f8kE" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="K88ThOGLuwO71OFyHJcBuKDpdIjLjXVQ" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+  <testElements xsi:type="project:TestOperation" id="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Ne  pas mettre de Pièces jointes"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Aucune PJs"/>
+      </expectedResult>
+    </highLevelStep>
   </testElements>
-  <testElements xsi:type="bpm.process:WorkflowScenario" id="pvwfOIGfYB23JthzgGOuMigEJ1EEX1bJ" name="Dest OK-Corps vide-Envoyer quand même" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="JuV8zjLP95Ocr5JlQXoDqk39IwfBegw6" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="8NC7kHdKPbe3p0vt3WaCM89DuKIiS5yz" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="lvDb1I49OGiOPuY2P1O70y5higZ9rndp" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
-      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
-        <value definition="latavernedutesteur@outlook.fr"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="lNxfvyrqFXjS8bblYU0aIJXfUbDLuxh7" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
-      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
-        <value definition="marc.hagechahine@linkedin.fr"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="z5v6oawBgeMQekukwFPHBMXrdkQAm7Kj" operation="w1ou3YNljbOzmTeP75FUEtZHDg5SFiem"/>
-    <testActions id="kXu55A2tcdTyhXJ5fkt9jMRcGambsxFo" operation="gWgqPb1g5oSIj2tbB39Kpy2Mzy8Ogtj3"/>
-    <testActions id="27BUxlPhMctmRmqnUSVKYEu841ae1daL" operation="3g0fxd7a07wNQz9aLhPIs3c6fxiA49YZ"/>
-    <testActions id="VHdodUBsbGdeu51OF9R9Da91ZzcCw27Q" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
-  </testElements>
-  <testElements xsi:type="bpm.process:WorkflowScenario" id="4hEK3tz6RtvAABrgOYq3cWvX5HLo28E5" name="Dest OK-Ne pas envoyer-Que signature-Echec envoi-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="Ceg0FW2gyMoh5dnqVnPKJPyBWuDOwZ5I" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="QnhCWMlveC2lyb0O4A8Hl1jFnaxUTmbQ" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="1bKth8XatwNMXc5x09bpua9mdh2iCdvU" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="M5YIFetVThECJ36IjU009BDR6Sj3wgSA" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
-    <testActions id="yj65EvnPAuQ1USrnBOk4vbx3soVzXWXC" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="YiPG96IGmQ0cxIInttMmgFxnPJEeunoN" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="r7HPjcTJ5GK2urTYXUQMop4He1gSiqpM" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
-    <testActions id="AmE9lm0TEMq4lNIDUunx2etLgesk21Q7" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc.hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="0CiWavfELsHFQrT6EgAlIN1mGM2dVmQb" operation="K6FS2pIspVGS2pRRT5MCT6IzhTNM4u6A">
-      <stepFieldValues referencedStepField="kH7mx9sGwxnLqWZzyTdHLbTUTZHQ7y5u">
-        <value definition="Marc Hage Chahine"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="6c3YRw8XysHzBhEYURn5i8VLqDF4YVHA" operation="KD0Hfg3iiZa7ycXl1D12nLdtsUZKXqvf"/>
-    <testActions id="nIvVFuSemf6ktj8yA2lB5upE9oOTSdfy" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="RMk0KYXyqFjsuo8PsxcF9Bu69fY1SESM" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="zdlfGg7ugqi9J74TJzyLQL91P8GOAK8q" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="dZCYxKvLMBGPfBuac7hlDaEAhfPNiFrj" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="1DnF6cwjiNQXu8zBZB1Y5kXPJvZO1cQY" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
-  </testElements>
-  <testElements xsi:type="bpm.process:WorkflowScenario" id="8rTx7JJpikIw89j6XGgzqotoxAhQxABZ" name="Dest OK-Ne pas envoyer-Echec envoi-0 dest-Corps vide-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="037LujrDHPZSlcNZVZh7KRPE1dcJBXea" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="zWPM83yBMstKTisrGkTcEg3t6jvqKD3g" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="9YqXs4xmshJpOIUoU8tIgxsESXw3CUCS" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="XVoHHuPS3L1M1YHDfKjiSnOOigX0PdWj" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
-    <testActions id="OqyY8LjwkfGbEkAu3ZOx9lKfGiL14ApQ" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="7n0DeBs2danKtonTr8zR87Dcs1X7jihv" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="Kn4A7JbDgIGM3xxPi189MEYvWEPxGlTS" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
-    <testActions id="NhE5DWLq4O0ZZaSBtdOQs1830VKlYHzf" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc.hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="Isg9YiGdODqDiOAVrUpVX16HtYBmRdrZ" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="hyRmy6AD70v0vLVMWUlUSIhq3GG1zhwP" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
-    <testActions id="ndZrhgHBnpuv7ITsQA5PbiGqrnrdBF7o" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="ww6pWOl31FTTw1v1UouKR2DVVf1trNrF" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="dJmYBvjD5Vf6wqZdHWOY8GYrVukaeWD0" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc.hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="T7pziCGYdgZiuq3DcuSpHGOrQVnGNvRg" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="IlPDXymEsxHKUMmijKCYOHZV7bChTz4y" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
-    <testActions id="VyaVKBPVa5X9xjfAecmGEYejCWjHSjLJ" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="K2PJliLK2bWl0IFeF9pFB3BAwUty4nZh" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="wiD6bkSDsjnze7SI1TA27vcnseczQO7e" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
-    <testActions id="oSCwPkSyJrms1pYQMx2HdfEGheuaqrgf" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="E83ATcPT2wEXxSBEXStEA6hlsVmc1klB" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
-    <testActions id="TEwUlRoXOuJgXLAuWIuNY7qNjXCbNTTm" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="LYCVZw4cXZRGDJeY0DoQSTstMJfxY0Ft" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
-      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
-        <value definition="latavernedutesteur@outlook.fr"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="gzssj672Ot7mDtoMTRASFnofpyabUjj9" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
-      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
-        <value definition="marc.hagechahine@linkedin.fr"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="aTpKu8rRyw4n5Kycy6VK16b71tskn5nQ" operation="w1ou3YNljbOzmTeP75FUEtZHDg5SFiem"/>
-    <testActions id="youqpNcfl0lh77jN8IDm8WEGKulzMPJn" operation="gWgqPb1g5oSIj2tbB39Kpy2Mzy8Ogtj3"/>
-    <testActions id="2fBQgrsdbUeArSNBHhQ6kz76SNuaw6oZ" operation="RBjUjJV8M9EgSABPW7iW9t0p8V0a5MM3"/>
-    <testActions id="SIIiCF0nHPK845bIXcllnBtM25jMPydY" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="5nOj1Yey8lU5jXcYGudQ2rXeJVjdU3Wn" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
-  </testElements>
-  <testElements xsi:type="bpm.process:WorkflowScenario" id="b0B56a7aPiZcyiBuXfAklntswqYWzpOb" name="Dest OK-Ne pas envoyer-Echec envoi-0 dest-Que Cc-Sans sujet-Envoyer quand même-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="MsfyFxpyTgB5gnsPt7QZ1MbNuAB1hnEG" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="1zK4My8HOIAXMzSU60X0ZVLIfvRfbzee" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="8dzBSn2okRPOINRVuHaUZwuHWDbsgiN6" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="bWohCBgopOQe5MhJSgqKRtBi5DAGrLLm" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
-    <testActions id="ceqQTXODapeuYapclu1qvVx3PRVcI7SZ" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="Btxg1zl54BZyhzJkHErje4z5Mh07hDJB" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="dMuC8lb01ckCYZkA9A0l5F6hYNoMGFRw" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
-    <testActions id="6oqAjCNdQ3K324FzKeKuCWRXyVe4qLKu" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc.hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="r9L4uR6vnLLy5kZ866pI7j6Uo8UJhRE7" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="z03lzYBVKgPJz1BDJ4gsEBx7aQnwevHj" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
-    <testActions id="HcRY0vshcbIMdy6pMQOS7rLpbmuGmSwD" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="CUUaiMm8G27StkL7Hvx8ixEIxbMBLdWZ" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="U9HejIZIzgTfAjgA8e3XbnxTccYP0LpT" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc.hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="758XuH77BbES0G6PDNrK4avEYr8bPMnX" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="Vp7qnTF92vMcDNxUdJd90bpgcvtUC0do" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
-    <testActions id="wGTlIumRUKC42TmOZezItjQqVmBbdqcH" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="gzLp2Ptb96Afkyio47xZv9Cnpb9ISvD8" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="FiPqgLHQEk3bFeL9NxOA3CSVQRnIxFvo" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
-    <testActions id="9HePtLmcopAZIZA2sDKBuhWU71aZqId9" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="h8yv3o5dghfFV3trDcQfDP3FOqi2SoBq" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
-    <testActions id="vx24PmIoV1XcyaZZry0G6wgMsna88qy1" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
-      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
-        <value definition="latavernedutesteur@outlook.fr"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="L4pBvt25YOVXGZ3ALfxnq1GY0Xib5jRY" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="QU2qqlEUuKrvRlraHrOOLPtfhzT7IibU" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
-    <testActions id="S1SDvQ44x5IpQ4yrS3kvDRaWfCmJgIiL" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="P8VwckO8X4brF4hFfPLJQvZIH5YNXdo0" operation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
-    <testActions id="d5u7ipz9YsdSgVAgqd3HQOCDWLmkOa4r" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc.hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="n2tuVylFILsHtGid8lWRWmV5bxeMD3Qr" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="P3d1auwAvbDoNBRpOTPzQNqEoxNlG0qe" operation="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
-    <testActions id="EU4aQZko017aMp5AawSU0ii9UnCorSCH" operation="fCbXiCbH850b1MDd0k4rtg1ZVepSmb4m"/>
-    <testActions id="2GuwJYPxvjjdeIDtNmKI66dPak3cRjgZ" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="4Yvlu7FaMEQG9a5UkXwoWCD7brkpOqqX" operation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
-    <testActions id="zAXK8gAYp40PNMVKmAxJMY4OqzTTEA0f" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="E7eHoFU5YJFrr9rtfqUDATmfeZXQ1oGP" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
-      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
-        <value definition="latavernedutesteur@outlook.fr"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="y1hPWUSJa67HL1IuEXCDuUbWsMqfniPH" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
-      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
-        <value definition="marc.hagechahine@linkedin.fr"/>
-      </stepFieldValues>
-    </testActions>
-  </testElements>
-  <testElements xsi:type="bpm.process:WorkflowScenario" id="G4MmUlSJ2y0ZN8IvEgzFPqQHlHNlV1wu" name="Dest OK-Ne pas envoyer-Echec envoi-0 dest-Que Cc-Sans sujet-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
-    <testActions id="Cpk2IYbYU8WrU6XAuJQ1zXrGw4RcSEg4" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="8bpnxzjY38pRhf3T2cEAwrf7k7h3f24O" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="7SF6duu1GJZTJgcP35NUClJgy8utE5wZ" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="sn7kc1Ckjz34MzdhaUdMD0jCuGYI2Vln" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
-    <testActions id="zHiv615YQLA4yvxb1lvhfad5FvY2UmU4" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="DY0mBqbl41jO2voy4Mio0E2GGAQCjV56" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="C1eFSP7dt1MmsHTK94mKZObyfuBpOBfZ" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
-    <testActions id="FPOHHD6mWZRMysAib7j5kxXNRofGLS9t" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc.hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="YLj9n0KflhCtX4KSvZDr1QXzz8gEy8IW" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="F6dTcojZY3ly4jyZaZZrHeJN4peKD30Z" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
-    <testActions id="IplxwtZ5coKj8axMDnVhOjaATHW6kcDU" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="vhJOKaU7FwGaeypn6J959tFqsyGn3qJJ" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="UQsmHFoJ4poRLFi2D4QhufzKp6Jjn6nm" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc.hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="YjvZTzUZnnlpqd0hHSkvF88HlDHBdLCS" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="eSgl9KhiUWWFFhuGtbCFzsZvQ02djsqG" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
-    <testActions id="G5MvaOtbfDDRHPzzPh4MlGeUC7z9sgoz" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="y6VNfYIVm7fxpwsxxCKbBLpO9FranpYU" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
-      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
-        <value definition="Test envoi de mail"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="T88KNmTQCWWM7HBn4SzeqVmsI4k8TeLx" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
-    <testActions id="NifhTpQyI1WmCHxdAG1XMD9Lqg7etAZb" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="P1l9uOcA0L4W4zsPDJYbIZDB7UvSNf8H" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
-    <testActions id="wn7jYpa4J8SmCW8ve0oG9HU6iAwETHeO" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
-    <testActions id="xjTo7t0ckj3q7ZGi3L8TotB9J29vofFz" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="jToQmdceb0GI9BIML8T40TRVQF0RsY3v" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
-    <testActions id="cLgMwIRODTYOW297WH9nKISfABuAtBdG" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
-      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
-        <value definition="latavernedutesteur@outlook.fr"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="FQWcGSkauVWYfe53nIy19mCH3c3Pkn7E" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="wjTDLuxzsscpZTIVzUeojB4bJni8eyBx" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
-    <testActions id="hf7R3Q02z71QM2ZqToDTJnD1yKKDhM9a" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
-    <testActions id="uu5uyrtYDfSuSZM6AwvIndZwYyChdOpp" operation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
-    <testActions id="2cbzymeVDKiDgGuR37UeKPBozNTMx6Hq" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc.hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="BymgWessPmDz0UYLfz2Z871LWuK8XMSK" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
-      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
-        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="7iuJ14ipJYSGWIDkaJErHuDluYQjVwea" operation="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
-    <testActions id="ngHbIq5Y3N6LdD6o2WV128t6bpkb9zhW" operation="RBjUjJV8M9EgSABPW7iW9t0p8V0a5MM3"/>
-    <testActions id="Z1U1lEOagfaxHxExwT8iIWrAhnr3xNGJ" operation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
-    <testActions id="oQgk0PWFv5KB7vAycoarczJtBuMm6kGe" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
-      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
-        <value definition="marc@hagechahine@altran.com"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="VBbOACcDkVhQj29YKtqe4QpAewlag60R" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
-      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
-        <value definition="latavernedutesteur@outlook.fr"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="JfNnj9onNQNHIQDlpLpZdFajmLPGt0uw" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
-      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
-        <value definition="marc.hagechahine@linkedin.fr"/>
-      </stepFieldValues>
-    </testActions>
-  </testElements>
-  <testElements xsi:type="project:PublisherConfiguration" id="wSw3wxQhmZqHmzM2H4rNcGbHW9EnGW2F" campaign="hPDgDU3G7iJqI4zveock5xhs0ezpy54G" name="PublicationXStudio" publisherId="com.smartesting.publishers.xstudio.XstudioEditor">
+  <testElements xsi:type="project:PublisherConfiguration" id="Sd1Amu5OFu3F4Z6u6emOdDcpcBAeAK3n" campaign="hPDgDU3G7iJqI4zveock5xhs0ezpy54G" name="PublicationXStudio" publisherId="com.smartesting.publishers.xstudio.XstudioEditor">
+    <parameters name="ProjectFolder" value="Groupe 17"/>
+    <parameters name="Category" value="Cours"/>
+    <parameters name="Author" value="Groupe 17"/>
     <automationConfiguration>
       <globalBefore/>
       <globalAfter/>
     </automationConfiguration>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Ajouter des PJ :"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="Pièces jointes ajoutées"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="installation de l'apli mail"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="installation ok"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="oNuKI95JpycxT1LVvjeOqSJtEnbeh5gC">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="installation de l'apli mail"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="project:StepText" content="installation ko"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="CxBvOFxUl1VDA5zpQtIoKm7KdD1E0C6w">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Aucune PJ"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="wqzVJ8rRuGa7wZ1R21RQTCqcolu8JUeI">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Limite du nombre de PJs"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="KFPy0QBUAROmwxmHszpRKAfutmWKScJG">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Nombre de PJ > limite"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="od0AqN8DUET6OIBBtnBSOvBPwsyqWbV8">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Taille PJs > limite"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="mrjRVpeshZBHXqICFllwwcKUIRG8UYP1">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Envoi d'un éxecutable"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="xl6tC55MAeQ0BXmgSGvWCdnhcogc9w63">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="PJ ok"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="project:TestOperation" id="ypPJ3GFTKAXTxmFMMbqB9Y8h4GxgHnFu">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="project:StepText" content="Limite de la taille des PJs"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="y9R6mB2KynzgAGDbZYAbO9b97x3z5dmb" name="Plateforme ko" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="P3jfHzYTyCHZsT6p7k8FbqE3KW9ON1s8" operation="oNuKI95JpycxT1LVvjeOqSJtEnbeh5gC"/>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="vVjOPtiT1JPLrI0e50V4p5raL9NfxTe7" name="Plateforme ok-Que Cci-Aucune PJs-Echec envoi-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="QVxqEE4Qz6VPmChG9YBkSYTbFd0wVzkF" operation="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+    <testActions id="vhX3cxCC1BatPhY13roYdsf6FVSZRzWo" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="7v5MS2PYNagVw9EbFt4Ib9o0a0UUhBRX" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="V3hPsXQfAVzNwwLirC8IQUyCpuzvCjHA" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="v7PpoI3VVy5fcTnrU30oa3UHXpu8TPMF" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="kENKoHGIDUtgWa6jUwEFfCcBtVzWtRYz" operation="AZcnqF5Dznt0qajuoG4WGDDUZBib6NT4"/>
+    <testActions id="EzyOw8ASIbj6WQPR9BNWDm2yRaTKHeZ1" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="7X8FZBOrFt6HuswEwKYe3CL42EYqVmnh" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="1hafstss7kKNfxSe0gXAyuEpft0Yx1xJ" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="heYHxVsDkz6ZuScFnITQjpuYvEcCTzFY" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="9SOKuMundpdGJNNa38Cu3LSFpGnF5usk" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="Lgqw7IyNcthwVjQpkmaBB2UIKnxL6etN" operation="AZcnqF5Dznt0qajuoG4WGDDUZBib6NT4"/>
+    <testActions id="aSYTSrKBmZIynuO1hTd7OFQbiOZs6vPr" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="qNyoIZ8jsooYvKKXQ1eml1hYVmXTM3V4" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="q2AChfraDdlDFAOovwo4BNCwRooBCRNL" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="AlY0jKQJD9s75gGszR8gPey35ZjjovGb" name="Plateforme ok-Dest OK-Limite du nombre de PJs-Envoyé" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="3GgIzreHLJ6JvIdSJVAIN2ZcAptWNHnv" operation="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+    <testActions id="bPoidOlEQ86a4WDAYeX0roDtQTdhX0zU" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="FjbHMm858dsIIiNqqbdibAoGy74qpYi9" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="2tH4Rywy8c6l2m3ULj0r2muzXfDv1bZf" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="n9wP8vcsU5XXLq8fBGqB6DVPCMNidv1s" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="jnakL4SZEWM1s1xFuy19BKplZhZQgIiI" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="UPbmjgVIPYoMW51YSWMAC148gBf0Eadm" operation="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+    <testActions id="n7XOYbyjN5GUdrGLjPUJPofLTE2oVXeY" operation="wqzVJ8rRuGa7wZ1R21RQTCqcolu8JUeI"/>
+    <testActions id="x3UwTa3DkNqnLKFGHrv5gF5Ht7eJnv2e" operation="lNCeMpUUxRs16bYLVsor8qD4YhNUs9lM"/>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="CpZjg7hrGz0RlQAw1UwbL4lVS840iKgI" name="Plateforme ok-Dest OK-Aucune PJs-Ne pas envoyer-Nombre de PJ > limite-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="lruH3m7c5aL0LdABL7KkUSPCd8DXjKue" operation="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+    <testActions id="WkukbpH2X2pc0Xa9jvQxLC5MP4LySWjV" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="kt8ywHhnFf4zzXJs0YuWV0VEuy3xZRwB" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Ga5gJOQQvf8z1Kr69w9wRiMx7pL0CaSL" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="V5U2n3AO4SlBAv2VZk6U2zoK2jEHEecd" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="SJqsxgQ4OaDwtp8TnPcGS8w2cDanAPtA" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="kaa3I3Y4eCbOefVkeF0CneSqgG9pxUNo" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="gXCqD61FnGaNT0bEufTBHxpGaChPrJza" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="WiBsLz35V0I17Jq6t3b3WDoqb91GmClq" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="1XgY1Tc0ufbxxpd5xcA7UHZ5a6hpu44a" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="r6q1YC2AuHn63QaqXXkDqd1asGfrQ5f9" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="cBDTHrTpImvqxGZLm7Add3ZFBpCUW0bg" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Bg51phz8sc11npq4zl9IrMJ4ntD6WFH8" operation="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+    <testActions id="gTiQOtFIFNhZ1xrEs4iL55yoKcPkC5vi" operation="KFPy0QBUAROmwxmHszpRKAfutmWKScJG"/>
+    <testActions id="E5qN2QR8Q2kcTsxwgCYcKT3xkQne44Yx" operation="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="F1F1Eug2nTLMzR2pe2YOvK7iOiGa6OBo" name="Plateforme ok-Dest OK-Aucune PJs-Ne pas envoyer-Taille PJs > limite-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="U6IwWICtPESsxPhAd5BRDnirBP6vTjff" operation="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+    <testActions id="x2wVLTRYuiE0eO22JVJ3iNGnDJuqEaUZ" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="tbJ8bPh20CJzG19jQaPImtva26e4nBjD" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="AAEsb6vM4ry6V5sisuxrmVBLh3LMsG2r" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="ZP9i2XNccj4ItHNH5sylOoeGPYpBTH51" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="KJpMMkk1CDmzY8DVRGluvfbDzP5aaqok" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="Ld6rVCy5Lmr08hQlh4D1pyVhl160SRDZ" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="34rHFgzkvrLQCuP4HI1ChTancFJrJVze" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="kQMn4KsDhpPgMtgZEijr6fqqm0EVrluV" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="rOTuQEGaYCjwEd3fFY5eo1tRG2qDVQtp" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="Q7WvirVWbZkHhY90J2chsEln2Sbg5yRA" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="hQUJ3macTuiy9eR5e6oTR5xu55DCuIJ5" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="y621YEfdMH23WrC1xsX5CZN5YPnOcTRl" operation="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+    <testActions id="4jpZh5USGMciHfTcbRsz4FQc5kFdCSrn" operation="od0AqN8DUET6OIBBtnBSOvBPwsyqWbV8"/>
+    <testActions id="shoiNRrPhmHguIQexM2fOqv2emskGFLi" operation="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+    <testActions id="RWyprQoT787WK5rFbpYszYPRkr28htwf" operation="od0AqN8DUET6OIBBtnBSOvBPwsyqWbV8"/>
+    <testActions id="NjuX8OfK18pwP04j087wlVG3xt3QUZYQ" operation="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="WmUlX9cKrReBAX3v969Sn2Y2pfl8IM11" name="Plateforme ok-Dest OK-Aucune PJs-Ne pas envoyer-Envoi d'un éxecutable-PJ ok-Envoyé-Echec envoi-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="n0VzroJHHVmAJmyvUJ4yjFeZ0qm7b8lP" operation="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+    <testActions id="RJCqK9aNIv9Jmn866A8frk1IclSS20oZ" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="NCT6dUC3jJRGwz2drTPfyxjeMf896wXE" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="47RE5zDbUulEgZrg1KlpfpStGktpyQjH" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="CsAMF6CIgxWBhFzkMQ4yooCtJ1Rvd5SK" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="nNWWQ1w6U5yeGf2E4VN0lGCkJ69XvEzW" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="ct0NrYlY8z8ymLEBZ6mrE3fHvgZyY5M5" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="aCra404RSqeCSnHyoGaOFsuvn6aJvGjC" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="6etMqnHrg61MtWwCtQQLIDxyPheR9dW9" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="EkWiPE8I3daw5pqksRIwscYvycukjG7E" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="qzimgQ65qqgk9dffEK3O7i8Ai4xFLsXY" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="1nlUxRLQIH0Cs2X72dZYuATJNZXfU40C" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="5rv5K5LMYCBOILbg3cqr9edg0xmLH6JX" operation="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+    <testActions id="OtcVRwKdyKzyELoIbN1JL8EhkDd4ucSJ" operation="mrjRVpeshZBHXqICFllwwcKUIRG8UYP1"/>
+    <testActions id="2ic4xEIzXndLSCqqMDAyb104aQ3i3uyO" operation="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+    <testActions id="kCKMSEEOVdrgJOUhdgtwD0eir4GVGxld" operation="mrjRVpeshZBHXqICFllwwcKUIRG8UYP1"/>
+    <testActions id="pyzhlkbH2QKqWcMnPJIQoh1War41Zhg3" operation="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+    <testActions id="tTkMRcoeJ6bMHJJwQytl70Co9U8Tcz6y" operation="xl6tC55MAeQ0BXmgSGvWCdnhcogc9w63"/>
+    <testActions id="rdJpfHsu2S2ZLH6iVoJTbUBEeMBf95pm" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="TfGeVPSLqP8QIxfdwhVQ2YBzK1bg4xVG" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="M8eRNbgp6rQnHii3DgRIk8ro27DkVkmL" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="SRvDDlXm1vehX6sOINibtxYlGEOZ0aBs" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="q3Co53FrA0wuqtqZqsCl65KTGwPf5Vdr" operation="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="AVbMgRhqnKkvSWDYxWn6YZvUHAcc7Xrc" name="Plateforme ok-Dest OK-Aucune PJs-Ne pas envoyer-Limite de la taille des PJs-Envoyé-Echec envoi-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="FNFenoW2ojrtZuQ5TADHgNqr3ZOMUmh2" operation="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+    <testActions id="acL2PXDQWJOefAuqbnYzE0GliirSrNGh" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="UMRxrZVhBLssLtc8IFjhlCza6266gfcs" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="kvFPEYSReljgmSgXeDEs4zM1wqMNJsVB" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="vgJXSR62H2Ytk5CGliJ3cliDUb7pqQ04" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="kbddC3zpaG6ZmVEsMbSWyrseBKE9Y9S6" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="E2vJtDAhmgCinKkyuGtI5RLgRw3Zlrq0" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="WpjhGZPXWS1AQ1almGmVdM11VpNvMIJ5" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="rl3GTITBYXa1W2xYMleSAT7N7M2pREab" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="f01c8tgBi5xVAzMEZGrtXOG4k2hpQS18" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="jrHKHs2piePTgpXLuKdIpYlTACbkUt6Y" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="ezua4vZ7GWElMkGNOrstOLY0JOK4EAqf" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="9u9eXDSonRo8YQjKu9FQuBnhsNgr0gqq" operation="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+    <testActions id="HrhGttFqRHEpzyNoZfoj0J50PwMe2atf" operation="ypPJ3GFTKAXTxmFMMbqB9Y8h4GxgHnFu"/>
+    <testActions id="CpC7lbSE8pbvqpnqi8jicaFYWNn7A36I" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="dgxZSRPWUS3Ya4HS9pGnAJcwFT7Njscw" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Bcppiyd9vcv26u6u22x2gAyZ368DOrUH" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="HAuxQ4IUT29ZTYJ3C1sYiZNG4EYxVFPo" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="c1dHepgJ2704b55b1WG3ABCAb2X3d6zT" operation="qb3rw15jIt3bXSTeL8rGtK1VgeYZ1FWL"/>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="pPmVXXCBqHQRorPmVoQVeve0DXFxS9Di" name="Plateforme ok-Dest OK-Aucune PJs-Ne pas envoyer-Envoyé-Echec envoi-0 dest-Que Cc-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="RblI3crJkHneC2UU5eNYBLmBkY1RrioX" operation="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+    <testActions id="yjF4AyLXYY7TX4c50mRdlc4ReXoSmQFh" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="7sPTuHlQm7a3wu1yKZMJ3Q1Ns8GUP5sR" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="ADkZR9H7csVXppHmS4KoeZQNijohHZBT" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="UIdHPqY0aInJL670jD9RhRrsqpOvTCl0" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="c6zI6iSvfbMHpGpOlAp5RBCrk1YDT6hi" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="P13ZswsHW74qJZiZuKzqOnKLxUrBzTgJ" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Y7xYv7tWOAJbkBXKeCZpFNDE3LtzBaQY" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="e4p0dM7k2DsXQydjDqiWTHpjXIzkKwTY" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="LUR9TFUlWhVQhNlmPc2P3gH8bot8X5OL" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="ldTTbaFS2UgUau6oiMIajKDrL5HhrreP" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="AIMlyVWngJnufUAfj4WSzBa0jjBdBMLa" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="cixGly4jTCToPCXcPdlENUexuvTRA60U" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="6HAIW3NSdOVfUDWN9ZSMjq9rVPYrsQBT" operation="CxBvOFxUl1VDA5zpQtIoKm7KdD1E0C6w"/>
+    <testActions id="JOx913BKg4AgBwq3Cq4tyhNPz8TkZcU8" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="2sIDfbSsf1g0UIuMBEewzxaICy6XDPVe" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="huCPMNZ6byTeXq5TLdtKDBsHRVTkyMC6" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="qmY2bvNtb7VnheNaY4Xvo0W31mcGbBLi" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="3ICTgnjkVN3CgTOhm7aKi5FEwemrXA6X" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="h13BFgUfuZ68LWCWKZdbaPQgZYLZauxz" operation="CxBvOFxUl1VDA5zpQtIoKm7KdD1E0C6w"/>
+    <testActions id="fx2a5Uj1OYOKhNbPGOdz5EmgtSMohpjf" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="ZnsLCSq803womJAf5jwAGHdJLmD1GPww" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="aNEWG1vioK4DZXgEGq28OJUheHTacew0" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="EmjyL3V7EoJnbPwcEs7eNtdjLOYaegIt" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="POcn8noZnyaW38mwshfonpu27CAYHnoa" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="Hb7AfVVBxXG2LNjkvVm90DAAOWFGq7ep" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="V6vUWM8XYo4ntVV62WLSn9mJ4871KmiA" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="P2EfH1DV60hW0aBNWdNM6tFvFESxYR58" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="sWsGw6YWXoh4J2K6I62AgLEECxG5SoyW" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="Yt897jvQ9nCbmrI6prnSCfI2yRjOdn6J" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="143wxaETtDhDxN7uLYoLidGQ9omxQuUA" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="6ju99JbUNFfpPNthvigajlSwURl6Ytti" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="DNSO7xgmaSabz4GSCjb5IO4aHRkZwG68" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="3sjpQe7Iu3DOjn6oCoh8QKg2DWaBLXsc" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="wwGa9rGX95qwRCMHrhRAhSC0aKAsaXjS" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="v0UO1Se41ckjbTNOCQ2QUfaitKllVrZG" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="1uRI3R6OkPFEO03qO65mSOIbkL3X1hqC" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="BBdVHzQGt0vn6wH3kwPClTGPy4tnazCE" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="n3DFxpW8iPAtxbCVCNdrzjeX9oHMQJJb" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="hz1LqSH5LWUXP46uw0lmQ0tU8WUFe4L1" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="TcvTf0mOLa6K3zYz57HAv1n5UTnoM3d3" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="8Paf6YUWPgRshjMd3oZ7koowQ7sjnI64" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="TmhjkuRM0r7bU9Q6Atnq8L21HIiYU3Sq" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="8WfpCsSQX2KANzpyUYGXwjnDOuOACf2F" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="mPMpo7eFTAh1vtxgdz7RlkMx2z526Brp" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="aumx3139H7wOLX4ONnn8bjRLfFGkTa8K" name="Plateforme ok-Dest OK-Aucune PJs-Ne pas envoyer-Echec envoi-0 dest-Que Cc-Corps vide-Envoyer quand même-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="vg6nDtCeQtYuvWw1VqJnVar8dXCq0vFB" operation="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+    <testActions id="GnNxQ8zp2HYZlWYtNT7bBlN52zrhaAfe" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="xj4YNifNBDwtOWq90WoMUd8M7Ln1k7tE" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="WRENNK7w55umol1VpaPny9BcAfafBsn2" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="aBXmXSwdOLMsPCZv3Ol9TOJVgNIeCWXY" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="6trTvHJH9VILvhmFswPA41PGVFpPKHiW" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="q5TA0XAZgR5TdI6YxOjJUMltKQyKp4oA" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="YHO9sVqoneUFmJBhDNBrrR2wl4s1QV8d" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="YpYdfhWKO8wwTtxizw03LfcyulSj99Ms" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="U1gPAaZ6QdAjtCyELv9qoEySQSfGt4A9" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="jr8oappkoUQfSwd6JTA2Gpe8WcSSS6zS" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="O2Rao1gEXvnwYWpgd36BrYE7ltEqf8o0" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="JMK3vcaAfk2sX6SxF4w5RufJ01HHlX7p" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="I1IXCi6N2lzMSwoKY2gbdLV8MJt4IxLE" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="8yg2nLmWuEcjnuD5VjGp40zNBCXP22ez" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="wrB1DwZHyVJeftz4Oq2JmvFbzidRloZb" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="dypU7O59rirpfyM24NsEfQcOvhcMV7Gl" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="pTpOzfBLFgtKfSc3d5SD6fGNkaePacEU" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="LyJlPFuL1OL4FRI87TxTw3DcDwOotUG8" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="HKm2wBlVU8N48IMFldIZnL10ctYT6HVK" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="WiIIIAAQzQNi3QRRFYHVmqwrqvmWbHsb" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="7rr0NsJbS0Ljl1AiQYzCDjFpjTojnhSl" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="ivr11mpHUbzFL9Jm8O4R47ABlv7uGNkP" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="lp72enerTDxi0shhGOhI4R33pqwtE59o" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Phgx0qhONQuNkwywcIPl7fQjAsMtqg0V" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="GweeIDPZ7H3TBXbVQvYbL0TFOnjKRSV9" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="tv1NEH0LRf3iEBLsnXPMDTfsgwyfdTni" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="q4TO8PXLLZ8tlLFKP8g4D5LUQv64Lszb" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="IylofAiMgspcddNfYh3E8yJWVfsiccKV" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="mfOO23mn9FOjEXtHRzpRTM0UVgWHBaKo" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="9bCNFkhzh9zi5VP2dDNUeXrq13UCO9Tg" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="iWFeShppNZyQw7Twqc11WwfNgJHFHam4" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="KSotNFVE1crHbgjOWh6mM4mhbxRv0sSJ" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="A9w8rEmVGu01XD7hrAD4HZvCtXYT8tFd" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="YmK3m8EWbVOZEKt52jmpi9qiUseAhjaV" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="iRhQs7lBHSSkVrcUBzD267kxGbWwmaIm" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="biQkQH62xyuzPF8t39FnPZwArAiOKyRD" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="3qgn1iZByEFXRXJWLt015eD7FCxYies0" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="N7hYc7rtAqIPNBDZQVn0mA0uWWzUM6ts" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="Q3yWWEJbGhQeSCu2ehlu82ndJWa2w8la" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="qD0zCtV1D2beGLDk5SSyw0uYrUyA0BHT" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="NM4iJ2QBWDj58MpHYXO2hZLc7UeL8Jff" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="L7BNWZq4exkxlR9p33ZfEijsppXzfqWT" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="WsIjYLktOADapXri4LPyM6BGBpKxSXlH" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="xI8HHP0LvehtUrVpPizbDTIUjU1HgmRZ" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="a1LiKHK1TUMmCKwNtp90Km67sDOjtSJt" operation="w1ou3YNljbOzmTeP75FUEtZHDg5SFiem"/>
+    <testActions id="rVLTmVZNfJrkikPoQ2XrFucoPL0GJi72" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="nEZbyYH4tgivAaFPtPZfayHU8DUHfi02" operation="gWgqPb1g5oSIj2tbB39Kpy2Mzy8Ogtj3"/>
+    <testActions id="7MDMsw3QEL2tE2i7QwuxbNc0GG0BJRYa" operation="3g0fxd7a07wNQz9aLhPIs3c6fxiA49YZ"/>
+    <testActions id="rax4EPnn1Zp4WMjkLTwXU8S2zjmvSffa" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="d38FiawY4UIwt79OghzUerhtKCwRf4TZ" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="4CWuWr2Eh9dTnaxgdLSQo7iHr4Ge7FwI" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="49JxiyVzQnnQxPiViOcypLRCwaTA09xo" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="QLzhxSfmd0Kf91rRUm1m0FEpOzH4y4pS" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="tbkT1772l1i18Es7oG4LZP4U8YgiHch3" name="Plateforme ok-Dest OK-Aucune PJs-Ne pas envoyer-Echec envoi-0 dest-Que Cc-Que Cci-Corps vide-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="YmvgdEyexMXG4jeBOHAc7hWsZpsbZhbP" operation="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+    <testActions id="5dl7txspzBT0kxKIQ5UpAhNiVWC7G8WH" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="jac65ymZvbON6oRax1yEO4dNSPyDeEe3" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="6kUXUBv8GDdPG0vjl81v9FzY8y579LeC" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="vacRzZet4UnavlS9eGs2yArgqk5hqPFl" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="L9L367C7EZDUOK5MIe2jpW1p5oVMXpQM" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="ltjZDr39UJbLSaTatU0pe4RmEOhGzEVF" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="X2OjhbuN860N7driPsryQOIL9w8ak7Ku" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="wcYSVvseMnX1tUumLF8gxUs3YtaLd6KD" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="2bATU0YKU5iMSidTraOs8SyxhOH1unOp" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="TLA5eBnQW9z7e76XZbDarPy4dUNh05xa" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="mMFPZB2lmGqp6a0tDKO8yEM9c9dSUVes" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="leyFumRN7OiQvhLOOeZrEEkfSnN7Ab8P" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="XJu7XTmrvutAfldhUVJMS1frUrkAhzC9" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="GtIDldd81ezT4VdNrQVcs1AmtKAP3Xyy" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="f3AZWYcDZCPEjL54y1USlji1pQml7Cxa" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="yNzxGJal0UF9RkcGLP5Oiyud0rFqUIBO" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="yrGIRtxY1ffWtd0LXpE8XfkR6dwMVgvU" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Ssw1vkhEhzK6ia8XXBJLTEGqoawB2sEv" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="z77E5ozRQWToOOK6TOzD7ZgBXDjVsNDY" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="STVxGrBVHXiIHCPv2RlNDJh0IlmBCIsx" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="x0thHxts12RnUynoaRpHLdJLnytJMtHl" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="1Gf8a7eORLJXR8fqkBFpcfOIuSw16lh2" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="OhzvDrCkCNsOTlrHbXdkcwBtCVRLZhpk" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="X5uWqmLGx7MtkrxVGWKeHL0rd9rIrJd3" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="QNGz2yjnx7QBixoqVWsl03mxXCyBUuhb" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="pnZEBCPGaM8Tgdm9EUnjQqnmcS2HTP9d" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="IHjzhaoi8ALQku92MZdq3VBRGOm9cEej" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Evgx5myfJEJ1f424jvtLAYvc9mSmOgVo" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="TVIf2i5N794uo8Vk0I1HSqmKGc22UZkD" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="bbj6BHzd0gZeIGxVKHxBwhj5LdSQ2zYg" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="ZxIJXEBRKoPdAlJcu6FZaChGtgfFiwRq" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="MXBv1adiI3k1OL9eTYu6qzBGIUCt5wSA" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="Enc5U3U6XTl5RyGh7SH0MxlUc1YLBc5P" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="5mK1ySRkRMfyO9fDIe9xOG7F90fgbK49" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="YQKj4qhYnLExBcJ4WP1Zx69V98B4g3Gu" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="RIw2rYcfl2qxDhzFVBVhorXhkSas9aMM" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="KqfPKskEhMGIiYgFGfjTIOk6yEgLtDtX" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="opeyG9pbbTuPmtmLfPc5Tv0dUkBbRrnW" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="MXsaPz5lZrG4v7U1Q9WBYHWdnBimIHHY" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="uvHDFLorBj7fwBQQSpfDQKzvv5GxupxT" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="rZCuLq0UP99AD7epMoMvvMODMSEvfCNA" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="GmUfSTVDbUpLSCvnqetGgwdlpbRxhAmJ" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Ud3UIyT7KfsEvaEE8NCw9fkZxaDCGOjS" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="tOaATAQGPkZci4jSBbvrAZxC2ToHbv8F" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="ZJXqjekfuwfoNLMRghcL55DgEFd9iJMO" operation="AZcnqF5Dznt0qajuoG4WGDDUZBib6NT4"/>
+    <testActions id="mm8C3P8hW5IpX0f5WjecXbx8oSBYVtva" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="UpWv4Y2hqQLlD1QOKmt2zZnj5bfNwpdq" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="bo62LFtsnZBh1x1jlfUJSGVmbWJTMAoi" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="JFf0oZMQGDpZ9L7lZ8IhzyJvyIqumplf" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="oXHSi669VV0Zy9efCYcAJkuvGHNLH2QW" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="9MXpQyBMTeekm1w6F2AtIgJWGyzcBJgI" operation="w1ou3YNljbOzmTeP75FUEtZHDg5SFiem"/>
+    <testActions id="3o7j07bCGztr51NsJYSqPd323Qr95Yjh" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="YY2LoZzwEoNUvFwi5vk6WEiWVqhtYZiO" operation="gWgqPb1g5oSIj2tbB39Kpy2Mzy8Ogtj3"/>
+    <testActions id="BOSNKVgfh1EfYvXdrZ5aFn05HxZ7Zcyw" operation="RBjUjJV8M9EgSABPW7iW9t0p8V0a5MM3"/>
+    <testActions id="ZaLyDRwyOa2Z3WhPPmz8BwGWPmjNTcu0" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Wx7xN7zUgwKVdv3w4mSlAJmyw1jKGaMk" operation="Ck81VGWMMeDjCMi5sCQxVeOlWBoB3kBp"/>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="R3cePasXJrgoUBIApZTtRQSUvweajkph" name="Plateforme ok-Dest OK-Aucune PJs-Ne pas envoyer-Echec envoi-0 dest-Que Cc-Que Cci-Que signature-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="zD5GOJZyF9DgZRVS1RXLDqcNizQaEa4C" operation="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+    <testActions id="D4hR8myI8Lp969tvLREoPY070quHcTiB" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="TpfaUUfxyUQ1CsGdqe9ZGKkFmEYgpdOM" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Hpi6KGFCKlgth2WbX9TZ92FHr3SJpR16" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="b4svniC4PeIJwEx5gSReb0ZxtSDFzQgk" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="4GiqRzYadBcOd6prrcGogVBBGOyNzDNo" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="RDWIsPfKJWBb1xfhByca9BHk5oGJWdVr" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Gzmr0pLElFBCn5h3g8gqT1I1uFBP8lbN" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="x7Nx8h6uuTflCJ0mlB22Gxagntcpn1pv" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="Dmsyqpo4HPztErSAlYr3rd3Dp67M7Ulq" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="1KfE31Z1mbpp3fAbjmZ3APnKfyQdxcLH" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="84NtYX386PDMyk0ERZnwaCEvhoyszxYZ" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="b3ZNHjjyGtOaXpnLuxys1JKCmd525FXC" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="v4A6aKtXmlphy8pFe3mSGUWPjjCv4T6D" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="vAwbBWcQQJ7wpuPNe3zIgDTXugqmWkwn" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="mGbj89p0zhoLKUKjgmiIqcgflJOEvGuW" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="OlgN6xWrMcCf7MBpcSAxELN2J6RphyOE" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="g8VRpWQfU6Y7X13zVN0B6etg66yHeeNG" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="DfqgiDJAylUCnX6sISlffewMl9Ep5hHE" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="3JBIo312MoDCKchpQvcvWIA7iC04KJBE" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="PYeqEh39eTKzsWlW9jr1jWct9RTH4HkG" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="xabfmUXraIvs2Nky0T0fn9OvpfjZy5zn" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="AhzFihQdOkU5N0b747kUbvU1lDs8GXD7" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="7e0YT8AvgZjNYjCpWvCybp8cWHBPcoI3" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="J6TtmG1bqdFHsGdWaFN6ESOe97tW24rW" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="Pgp6oUJvfWBtFwHZk2PJ0mWHK15c7G1S" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="UiDTIpRn1H74yPirXQFtGwVcEd7mLmRz" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="ZSFk52kp7N8PgpNBoUbUtj2GXFyUqUD8" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Xk4oLOwfRTPi7MvvT6M1Zh0uAbOOvNiu" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="z3bhGnWzCa7WaP2VSHN4DEmRHi3K3EdN" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="h1wx7RzTVFpLrtTr4CAQ5V90WcZaBunb" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="1ygfxxhoocxJExqfp8AgHjAz2m7qOj51" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="LP3CrHRYMm2zfleoP2ESjNlklO4WKtuL" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="RTVnrZhEpdbI6EFYOMh7uYK7w31XosY3" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="C8ivDX7xYvvYrzF1U8XRqUu9mNtstXGt" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="zV5JeKDi8XPOp3vGUtKHryOwpawTNDQA" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="rCMQ2kCkka8JnjhcrQtyS4hFHT0e8wPW" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="oGjeWxKNbTRLrGyhg58WXZiQfsWWqIzM" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="ZE6KHAEEv6K7BZm6uflly6vwYby8Vkej" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="3bro1E8WrVL4wSLbeSI09IjbLwx32B9Y" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="gfyJPQod54lv0Zd30vaMFsGFi1AyJ6jk" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="Q6SCK8v7AkUMFStrN2kEOeMnry4GoOJZ" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="cyVDbDjEPZGI5khBsw8RWwP7ukchYUNk" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="G5diAAZneAsMobTOksHOSXo8HmZ6x7GX" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="giUEMeXJbWXjtlhCibtYYmd011vgYuTq" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="HN16NIlw5TXzLbkC2SM3v7C5MvBhyaJ8" operation="AZcnqF5Dznt0qajuoG4WGDDUZBib6NT4"/>
+    <testActions id="SZRuscEzqF7BtHoSlqaFS1JPI0XFMQjL" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="k7JGhTN7F1xChP7TtXFxibSFBZ8vjDAZ" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Ki4UGMWcZC9suZBxhJENJhemjjB9QjRa" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="60LAMFvCFI48l9ITIcOn8ua2cY8tjLwe" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="JY1QXt730NZUHCJ4I9giMonDiIjIM5EU" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="0ZNld89QpRX0Un7iER3RUuGLZzAjwLTl" operation="K6FS2pIspVGS2pRRT5MCT6IzhTNM4u6A">
+      <stepFieldValues referencedStepField="kH7mx9sGwxnLqWZzyTdHLbTUTZHQ7y5u">
+        <value definition="Marc Hage Chahine"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="tYI1PXjoCxy1IIPmxM5i7Y7N8Yk9Wqor" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="GheWtrQQF7QUnnkqhjsMfAJS4YhNWN5K" operation="KD0Hfg3iiZa7ycXl1D12nLdtsUZKXqvf"/>
+    <testActions id="9I0sqpbjDQk80182RgdF93ZdSoKYbvUB" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="o3hLMBxL168eMwlvjnIbkBTsnrrLt7Hd" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="8V7N7DZWVbMqocKX1GhW7NbwUGxPvGH2" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="rLBD48H9WyPQmnP9J3ZC0mnZbiD9NeEr" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="85qTZZCNczBamG8uCnNp9r3CZcKLxunC" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="QTXBygpC2rK76cAqYmihnaeZw7x0yeop" name="Plateforme ok-Dest OK-Aucune PJs-Ne pas envoyer-Echec envoi-0 dest-Que Cc-Que Cci-Sans sujet-Envoyer quand même-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="rv9BRB3nG2mREZPNgfzp3spscIG6q2C4" operation="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+    <testActions id="KhYOr41pn0oX4IPH8cgZqL6t6YeumU4X" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Aq8qoclLPGNQcxKIigvXSfCtGUOAIb2H" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Ms3eKEb1QOdok6jYPjk5gKF4zfoCwZVb" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="03LtGvxqbU9C8dUC9OkkbzxrU2B9XRE5" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="7j0fBm0XA92Rut6fkZKPfDzIVBb91fdb" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="9lZl1kn26ZAjb8QcadNPf0D4MoQ99rX0" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="rD2CgC4STCCUJaATtm1lscgJGtqegLOg" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="syDexvXO6FhyBPb4lYa6h0KCl6YFB9im" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="SOq9vljgjjBnhB8tq08y19K3RefdJIBx" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="JBsVGBZ4lhc7p5fx16VysMGnSBdqTPpb" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Ct36f2vyqudE6IMR29skESmarUvqknyi" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="gDgin7QkmP5SsaYsXjJovOfDKt99xsyD" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="yjMDdD7cgWCEZOJ5Ijf1SmmsrO46fpI9" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="R0VZasWlLVggbvghnTMGuq1X3LozXdsS" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="yVJPGr8e1PgJDMD645zjdzLozz6ssBi5" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="raoX6Cf3YEEBKaWvSXjG8mmCJQx7efod" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="chW5o0UG2RWUtMU2tdBdyE3JhqnjIQxT" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="wvzDrA6v2o366HQTV9Le0AlfarIOToMM" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="4NNaGhUYe8zGk9wJAbWvYVpcVx7JILrO" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="OeE1SvSH6p0MelIhSxjyneVq9TJkpLSd" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="V6VwttYhy0lRLJs3dUKO99HuMHEQgaLp" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="gYtX0lwKff4ATw8RuBOnS9oryzP2iZQd" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="wKE5sDbjsXRvrmCVfYALA4Ai9pv1JcdR" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="msotbvWG9d51LavJlAdJk2tkBdt9YoxL" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="0GHTN4Le4UZIS6rmUUFGhN7qnAcZSQ9Q" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="301AGg31ZmbITfWTC6VLeOJOR17oKW47" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="4WIUfXeogXCfgYv8bWkFDAnLA8Mltwb6" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="x6MVpelcPMU74QLn5OvBLnsatU5phJPB" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="4A7YN87YnSmN376p1xdIJKiZoc3FWv0C" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="5zWE7h2XhEIHfxEnvkYhGbgPDdFck2L5" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="T65RAGgN6O4dQ2mfvG5BexS9wXuocIyM" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="7zHfNNbqWHNqjckeJsRzf4FpWunIIZR6" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="p63k7BokK6A2ljsBs8jVzT3E8ktqsiRJ" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="2kenmjCQc2W83YmJJJU43TI1r3Ft3oim" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="bcGzgW5CkWLTJSxoanW2YBvFFji47Ffp" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="rx2D0EuEGQUh8QOkj4cEgwNt3kUF8f07" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="k1OmZ1IYb6FEymUYkcgUG3wmW0SrsUY2" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="bQfH2IPtNRjFev2cpoz1wiohKmdKITO3" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="e0VRqoDVa41nI60PzxLzIbub9KhSeSG4" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="4F2QjuOVWGI7rYKFwt4FSySHTqb5Vghh" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="ZSQ4R7zo0Tx6niazOHjAvVuy5ClQnNhj" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="LwqGXKDK3Q9RoJDJpZ5TtncM3oZKCn1L" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="csetWS8m83vl02iaNPxcPQ7KAi3dTO8t" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="hTMQkchL1PXqMMemmFS0v1khPaaA95Mz" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="hiqnCCXHbdoY2R1p5viAiUaP9wZ9PJmW" operation="AZcnqF5Dznt0qajuoG4WGDDUZBib6NT4"/>
+    <testActions id="37jqhbJ3Z8eGr4qv6cqrwMBNXrKrrlQn" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="ROI1FFzKQjlwZcV54tgXV9MGmpdk5T8A" operation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
+    <testActions id="9VaTCo0GPLaEpZVVqsc41cBaUgVfdCfC" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="xxUHJ5dPrjG1tsi5LcRdSFt4XW39dGD2" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Xa1cIiwsuQU2VJ418PT1VeMjeplJRQaR" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="kas6e0Xl6IUlfySrmSjj2wlgBLUNMKHn" operation="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
+    <testActions id="zYC5hbPYO4C0Li8YqllO2Xx6WTK2q0TZ" operation="fCbXiCbH850b1MDd0k4rtg1ZVepSmb4m"/>
+    <testActions id="bg34K5z7j4LJC4ZlDs6w1wY1CgGybOYB" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="dxUXhI5A2yjHNaDzaqIxneqjabtnieon" operation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
+    <testActions id="MieDCTAiDkh5oAj4waE3wPi4D1zlrZmO" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Rb9A1y2xYol34sAgLGHLQN4nXm1gN03T" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="IX28W7AW81SSJTTOenaeASvqL7TVpNOa" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="bpm.process:WorkflowScenario" id="brsLIHxov0jaLRNAMbnYiEoLSmu7z8QW" name="Plateforme ok-Dest OK-Aucune PJs-Ne pas envoyer-Echec envoi-0 dest-Que Cc-Que Cci-Sans sujet-Brouillon" associatedWorkflow="VaPgEnV4nq2ZE6qTXaxMSRaLc5U14HYP">
+    <testActions id="lInUu17tCuQ5Hrp3hUhI0SA7tbRI62l9" operation="rZYStJT6h5u20oRRiaGbrt7QLK0jOv72"/>
+    <testActions id="VX2HE7pmrFcvCyqYe3BRPVggYfEX1pUo" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="nQIlMrj038bYqY1GPzjKc4CZMIRIlJTt" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="CMlVLICsLdnFEjEVFKlqyJF2xdfbYBYg" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="O3GLetsHeSwfg8tdihqIuKqYCLdgnzQ2" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="D7yXsw9fNo3LnNPGQd5Uae4seBu6mjwb" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="dkzFnvGm8lk38l9e2gbF5WactGkl8yIS" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="vXkLLfrEekD0Dh5yZTuE1GbiVb0LN7yw" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="oRBhxhED1JWVvIbWcgilK66xY6KusbPR" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="atP2nRS7zNPAjChYIZcz9EcNwZkZImAM" operation="lyx3QQeHcYYxpKyueuL7ynpHjeFnZYI1"/>
+    <testActions id="0HxS3BIfMyheoyijhpzdNF17Lx6g1xsp" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="4uLKABu1N74Ex6qxmNQ17C990XphQXwz" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="ea6lwzNxV4QIu8L9167jtyEkNTSqLGlc" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="0YweYBDXxPgKklCOLHZlLis1kvd3AJ3t" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="u7rNl2n9qjELcMF3BUzR3iIijjzTTASg" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="YWNtq8Tnt5KuynkfQHnIc3PkioAMwFtK" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="V6NHGoIUTZj8DSQIfTC3LRNfiHmIIflr" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="81UhTl4Ba61h4RAt7j3zF3J8xdZgzDOL" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Z18vW1kGoMN6RpHOiXPiXwokBTQ4bv8M" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="ez9mBx2fOTfslOcTkYDelPMRQzRERm32" operation="F9rZyCAGY8gIzFkJivKHaOidmvxS78fN"/>
+    <testActions id="ZX39bCZ8WC6jwrfGq1IosKXOGuxH8xHT" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="QDmFcwYSnIAGDoEK8RvRO3x9uVJePEK8" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="hiIDW8DFSrmP1rABBJbGPiiZ3culGrhp" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="C80QqGYmQE5VOmWdiN9HTQT8n8eIXI9z" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="bhDTWdN1HTvZPgw5EAAl8qfEbDR4eLOX" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="8TTizN902ez5ljychCfthKHSXfA1hpt5" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="irJZwndo2rh2QsqqOFT7U1e2jpAYOOXH" operation="MCl10unomLUfSVayzzXA5dEReoQcypSB"/>
+    <testActions id="0PnY5K8k1zEq3F1QSGXXvJ0OoQp5O0tz" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="dMUdgWTbdzgihHkG8ZcVxgokq3C8ACRP" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="kKZx5GH7higriJkEB9SIjnDTWqRqKVZ1" operation="V5SSNclVnfYI7p1YHFAjHa9tRa7jMcMy"/>
+    <testActions id="156L5p9kukFJsFSVoP1ijO9IkHnvWqQT" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="91nVEnJjxr3KU6d6LwCokGs3DO1MnD3l" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="tQFhKMGEFoUglqRy00vyKe3P6cHXnWSY" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="0eY22nMwtdrBPsRc8wuklazCpB4ttbOX" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="oBBVIbgJvhljwp19hrVigsFMYd60Cmwr" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="rvaW8DemOZHxuWKwaIxQUVWQynrQJHfj" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="W6vx3XM5FBXAOpDforqKJvgJJa7mwWNA" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="u2Rut0lhNzfgB92h5MW54Qr6d0WpwBKu" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="t5JkOvzPbtI8fituR5z1hZcIAMlMa0OB" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="27bwNGceXpjwLFb29V3ZahON0002bkCW" operation="4936wu8vbZ5wLsfyqRGKuGpEj4Dqmx7J"/>
+    <testActions id="65iXrONME60uwIpRfxsSxbiAMzsR9eYR" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="cJPlfZon7b4RYPsoMi7oPVu1q0L7tEq7" operation="9gkZ6E9tw1n8Ei2ryoXncwOIfLHoYFNo">
+      <stepFieldValues referencedStepField="AUz8j7AVwONljvEflfcMbUG4kwcMuJgd">
+        <value definition="Test envoi de mail"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="31Wq1GH6FaCf2BdR7VNCxz939U0l1rUa" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="12kJh54GQDlbGJDkf8HU5Gm9PFWbpiby" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="OU76JEwTNL5CNvnlbqezCN8lkR0m5sE0" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="4WjnrUh7FHlzLpMg1A4P3vANx8hzSdi2" operation="AZcnqF5Dznt0qajuoG4WGDDUZBib6NT4"/>
+    <testActions id="Ssyz0aV6oYuron4mumK3PyIWBmtgSw4y" operation="WjCspVtcacFTHW09JQUUNUOgKwL2FXZ9"/>
+    <testActions id="0xNpalnE2OVfpNcyHGxZPwrhKMutQUZC" operation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
+    <testActions id="PLK3dt4OpE66bnuVJFOpTzso507EO4B2" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc.hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="pl8JcQWxQ7N7YMSIEuYDqbo2GOUJdqsH" operation="O5Knp5vG01JG9z2LpAlD6uARGNCrncMH">
+      <stepFieldValues referencedStepField="eOaGi71htJg2D7ssAvfaOMTjKg0KS0qx">
+        <value definition="Bonjour, j'envoie un mail afin de tester mon application"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="ZMYIFh486P6G5NZMrQC98gSmeR8UlVCt" operation="Zr0maGb8KGr7ISfSsdn8jPGZoQZyvSwi"/>
+    <testActions id="VdnPMHntKCtgBe191FtrDfyfpK9hzw6i" operation="dKWKJddMYC2aLOYXQQ3jANrbwqAiBLIN"/>
+    <testActions id="CfBZvco82Mgjga79pgB1lItIMel9db7S" operation="RBjUjJV8M9EgSABPW7iW9t0p8V0a5MM3"/>
+    <testActions id="csxYf4b6KtcvCB4HMHOXaiwsQYua4K4y" operation="NAEfSa2vKccCaIWAHplkRdkUUsnMWZKY"/>
+    <testActions id="dZN7emCiPfPCQbIAMKHdd6wbv85xRTAI" operation="qlqOeKWXtmFOiuTgoW0g5m2TfG3ddDJU">
+      <stepFieldValues referencedStepField="zdLuiDVmTXwuCqnIk7YEc7w2GOyEte84">
+        <value definition="marc@hagechahine@altran.com"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="Iwpw9cQHT1e4HNDJC75qP07lfBs4I4Ds" operation="PsEQDk4CmjDSVloa5zXC487NcRZyf7cj">
+      <stepFieldValues referencedStepField="DlOhY19y2leFruXcKgRcSv8vnbO3cdXY">
+        <value definition="latavernedutesteur@outlook.fr"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="PksaHBDub7aEnVnTWvewfw5xsD1vEZId" operation="7BKDPaWtf95Htx1Gu3ghyNpbwAux6qf5">
+      <stepFieldValues referencedStepField="8RxgwOq7LZxQXLKUJJ0yXjQxfbypcaWF">
+        <value definition="marc.hagechahine@linkedin.fr"/>
+      </stepFieldValues>
+    </testActions>
   </testElements>
   <dataDictionary name="#dictionary">
     <datas name="Sujet_mail" id="535b4e7ec5cc4d7b2148f61ce21439df"/>
@@ -2157,6 +3556,11 @@
     <datas name="Adresse_mail_CC" id="5MzlctDblzBkfAo4RXTcpsRnpfITUp77"/>
     <datas name="Adresse_mail_CCi" id="Zr8yTr1Mz2RHuwDpU12NmUywlP66jwAT"/>
     <datas name="Destinataire_Mail" id="2pBAKOGFVBmSrNtyrfs7JNZfmmRE9IsF"/>
+    <datas name="Nombre_PJs" id="aW5uoL5bf12OZrQZdMHEXZltAHc2wM4i"/>
+    <datas name="Nombre_de_PJs" id="ipvc3EkqlNm1GDvH9s9323cbBrRnQMLu"/>
+    <datas name="Taille_PJs" id="NqTzXrsUfwITjMgi7bmBRNEah7E7FsS7"/>
+    <datas name="Format_PJs" id="zIYlkFdvZSpVqcW49z6SC3Wi4KejhgaI"/>
+    <datas name="Plateforme_utilisé" id="vzelfdkBQ8HtqMrkzMjMXAACSkJELd7h"/>
   </dataDictionary>
   <dataSetCatalog name="#catalog">
     <dataReferences xsi:type="project:ImplementationData" dataName="Sujet"/>
